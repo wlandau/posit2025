@@ -57,7 +57,7 @@ knitr::opts_chunk$set(
 
 ```r
 install.packages(
-  "dplyr"
+  "crew"
 )
 ```
 
@@ -67,7 +67,7 @@ install.packages(
 
 ```r
 install.packages(
-  "dplyr",
+  "crew",
   repos = getOption("repos")
 )
 ```
@@ -78,19 +78,8 @@ install.packages(
 
 ```r
 install.packages(
-  "dplyr",
+  "crew",
   repos = "https://cloud.r-project.org"
-)
-```
-
-## Choosing a repository {.huge}
-
-<br>
-
-```r
-install.packages(
-  "dplyr",
-  repos = "https://tidyverse.r-universe.dev"
 )
 ```
 
@@ -105,13 +94,14 @@ install.packages(
 )
 ```
 
-## Trusted repositories
+## Trusted repositories {.huge}
 
 * CRAN: 
 
 * Bioconductor:
 
 ## Custom repositories
+
 
 
 # R-multiverse
