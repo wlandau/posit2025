@@ -51,7 +51,45 @@ knitr::opts_chunk$set(
 
 # Package repositories
 
-## You already use them
+## You already use repositories {.huge}
+
+<br>
+
+```r
+install.packages(
+  "targets"
+)
+```
+
+## You already use repositories {.huge}
+
+<br>
+
+```r
+install.packages(
+  "targets",
+  repos = "https://cloud.r-project.org"
+)
+```
+
+## You already use repositories {.huge}
+
+<br>
+
+```r
+install.packages(
+  "targets",
+  repos = "https://wlandau.r-universe.dev"
+)
+```
+
+## You already use repositories {.huge}
+
+<br>
+
+```r
+BiocManager::install("GenomicFeatures)
+```
 
 ## How repositories work
 
