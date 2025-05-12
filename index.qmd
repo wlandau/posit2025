@@ -100,20 +100,19 @@ install.packages(
 
 ```r
 install.packages(
-  "targets",
+  "crew",
   repos = "https://wlandau.r-universe.dev"
 )
 ```
 
-## How repositories work
+## Trusted repositories
 
-# Existing repositories
+* CRAN: 
 
-## CRAN and Bioconductor
+* Bioconductor:
 
-## R-universe
+## Custom repositories
 
-## Tradeoffs
 
 # R-multiverse
 
