@@ -225,33 +225,44 @@ Will Landau
 <h1>Package repositories</h1>
 
 </section>
-<section id="you-already-use-repositories" class="slide level2 huge">
-<h2>You already use repositories</h2>
+<section id="installing-a-package" class="slide level2 huge">
+<h2>Installing a package</h2>
 <p><br></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="fu">install.packages</span>(</span>
-<span id="cb1-2"><a href=""></a>  <span class="st">"targets"</span></span>
+<span id="cb1-2"><a href=""></a>  <span class="st">"dplyr"</span></span>
 <span id="cb1-3"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="you-already-use-repositories-1" class="slide level2 huge">
-<h2>You already use repositories</h2>
+<section id="whats-really-happening" class="slide level2 huge">
+<h2>What’s really happening</h2>
 <p><br></p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a><span class="fu">install.packages</span>(</span>
-<span id="cb2-2"><a href=""></a>  <span class="st">"targets"</span>,</span>
-<span id="cb2-3"><a href=""></a>  <span class="at">repos =</span> <span class="st">"https://cloud.r-project.org"</span></span>
+<span id="cb2-2"><a href=""></a>  <span class="st">"dplyr"</span>,</span>
+<span id="cb2-3"><a href=""></a>  <span class="at">repos =</span> <span class="fu">getOption</span>(<span class="st">"repos"</span>)</span>
 <span id="cb2-4"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="you-already-use-repositories-2" class="slide level2 huge">
-<h2>You already use repositories</h2>
+<section id="choosing-a-repository" class="slide level2 huge">
+<h2>Choosing a repository</h2>
 <p><br></p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="fu">install.packages</span>(</span>
-<span id="cb3-2"><a href=""></a>  <span class="st">"targets"</span>,</span>
-<span id="cb3-3"><a href=""></a>  <span class="at">repos =</span> <span class="st">"https://wlandau.r-universe.dev"</span></span>
+<span id="cb3-2"><a href=""></a>  <span class="st">"dplyr"</span>,</span>
+<span id="cb3-3"><a href=""></a>  <span class="at">repos =</span> <span class="st">"https://cloud.r-project.org"</span></span>
 <span id="cb3-4"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="you-already-use-repositories-3" class="slide level2 huge">
-<h2>You already use repositories</h2>
+<section id="choosing-a-repository-1" class="slide level2 huge">
+<h2>Choosing a repository</h2>
 <p><br></p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="st">"GenomicFeatures)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a><span class="fu">install.packages</span>(</span>
+<span id="cb4-2"><a href=""></a>  <span class="st">"dplyr"</span>,</span>
+<span id="cb4-3"><a href=""></a>  <span class="at">repos =</span> <span class="st">"https://tidyverse.r-universe.dev"</span></span>
+<span id="cb4-4"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="choosing-a-repository-2" class="slide level2 huge">
+<h2>Choosing a repository</h2>
+<p><br></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="fu">install.packages</span>(</span>
+<span id="cb5-2"><a href=""></a>  <span class="st">"targets"</span>,</span>
+<span id="cb5-3"><a href=""></a>  <span class="at">repos =</span> <span class="st">"https://wlandau.r-universe.dev"</span></span>
+<span id="cb5-4"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="how-repositories-work" class="slide level2">
 <h2>How repositories work</h2>
