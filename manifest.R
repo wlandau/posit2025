@@ -2,7 +2,6 @@ rsconnect::writeManifest(
   appFiles = c(
     "index.html",
     "style.css",
-    "README.md",
     list.files(
       "images",
       all.files = TRUE,
