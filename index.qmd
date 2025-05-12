@@ -65,7 +65,7 @@ knitr::opts_chunk$set(
 
 # R-multiverse
 
-## R-multiverse overview
+## User-trusted, contributor-friendly
 
 # R-multiverse Community repository
 
