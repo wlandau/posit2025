@@ -51,12 +51,36 @@ knitr::opts_chunk$set(
 
 # Package repositories
 
+## You already use them
+
+## How repositories work
+
 # Existing repositories
+
+## CRAN and Bioconductor
+
+## R-universe
+
+## Tradeoffs
 
 # R-multiverse
 
+## R-multiverse overview
+
 # R-multiverse Community repository
+
+## One-time registration
+
+## Direct distribution
 
 # R-multiverse Production repository
 
+## Short list of checks
+
+## Snapshot cycle
+
 # Recap
+
+## Summary
+
+## Thanks!
