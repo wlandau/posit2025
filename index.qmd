@@ -284,7 +284,7 @@ install.packages(
 
 # Production repository
 
-## Production repository {.huge}
+## Production repository {.Huge}
 
 <br>
 
@@ -317,7 +317,7 @@ install.packages(
 <img src="./images/snapshot/Slide4.png">
 </center>
 
-## Installing from Production
+## Installing from Production {.medium}
 
 <br>
 
