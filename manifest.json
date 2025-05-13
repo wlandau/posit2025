@@ -11,6 +11,27 @@
   },
   "packages": null,
   "files": {
+    "images/bricks.jpg": {
+      "checksum": "7248764044a95bf60795b2a86673ae99"
+    },
+    "images/bricks.png": {
+      "checksum": "a380f8430285cb7efb0bc9eb95657ca1"
+    },
+    "images/built-with.pptx": {
+      "checksum": "b48ecdb86a58bb3b7cdda5f6b6ee5588"
+    },
+    "images/built-with/Slide1.png": {
+      "checksum": "4e304160323ac8f43d8349b2b229bbd0"
+    },
+    "images/built-with/Slide2.png": {
+      "checksum": "a6fb85115606e0356b68f168df10af97"
+    },
+    "images/built-with/Slide3.png": {
+      "checksum": "dbf552ea187568bad0c6b9da639126a4"
+    },
+    "images/built-with/Slide4.png": {
+      "checksum": "59790d854cd3651cf38d06e6f66c8329"
+    },
     "images/R-multiverse.png": {
       "checksum": "994c5fed2a0e480e0cc8b8994860a404"
     },
@@ -228,7 +249,7 @@
       "checksum": "9c28a4d1f1502771665328f6abb091c0"
     },
     "index.html": {
-      "checksum": "81626878d12a0d9570ec084b4c6e6283"
+      "checksum": "a14c6b204c06501a1f3ac78e742e09e6"
     },
     "style.css": {
       "checksum": "3f2b897807c27551f3653186bb799f67"

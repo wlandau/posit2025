@@ -197,21 +197,52 @@ Trustworthy | Easy
 ---|---
 ✅  | ✅ 
 
-## Custom repositories
-
-
-
 # R-multiverse
 
-## User-trusted, contributor-friendly
+## What is R-multiverse?
 
-# R-multiverse Community repository
+* Dual repository
+    1. Community: an <span style = "color: blue; font-weight: bold">R-universe</span> with all the latest releases.
+    2. Production: quarterly snapshots of only healthy releases.
 
-## One-time registration
+<br>
+
+* Key features
+    * Package maintainers directly control releases.
+    * Transparent governance, policies, and checks.
+    * High automation.
+
+## Built with:
+
+<center>
+<img src="./images/built-with/Slide1.png">
+</center>
+
+## Built with:
+
+<center>
+<img src="./images/built-with/Slide2.png">
+</center>
+
+## Built with:
+
+<center>
+<img src="./images/built-with/Slide3.png">
+</center>
+
+## Built with:
+
+<center>
+<img src="./images/built-with/Slide4.png">
+</center>
+
+# Community repository
+
+## One-time package registration
 
 ## Direct distribution
 
-# R-multiverse Production repository
+# Production repository
 
 ## Short list of checks
 
@@ -225,4 +256,9 @@ Trustworthy | Easy
 
 ## Image credit
 
+* <https://github.com/ropensci-org/contributing-guidance/blob/main/images/runiverse.png>
+* Stefanie Butland & Steffi LaZerte (2020). rOpenSci Community Contributing Guide v0.1.0. <http://doi.org/10.5281/zenodo.4000531>
+* <https://www.r-project.org/logo/>
+* <https://brand.github.com/foundations/logo>
 * <https://unsplash.com/photos/2-dogs-playing-on-green-grass-during-daytime-IFK5ROpTimo>
+* <https://unsplash.com/photos/red-and-white-brick-wall-zb-ico2Kcg4>
