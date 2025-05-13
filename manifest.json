@@ -11,6 +11,9 @@
   },
   "packages": null,
   "files": {
+    "images/.DS_Store": {
+      "checksum": "194577a7e20bdcc7afbb718f502c134c"
+    },
     "images/bricks.jpg": {
       "checksum": "7248764044a95bf60795b2a86673ae99"
     },
@@ -32,8 +35,20 @@
     "images/built-with/Slide4.png": {
       "checksum": "59790d854cd3651cf38d06e6f66c8329"
     },
+    "images/community-universe.png": {
+      "checksum": "d4f0512ce52b9e1efd520a7d3c17107a"
+    },
     "images/R-multiverse.png": {
       "checksum": "994c5fed2a0e480e0cc8b8994860a404"
+    },
+    "images/register1.png": {
+      "checksum": "a108122764b757cda21b55694a22064a"
+    },
+    "images/register2.png": {
+      "checksum": "377492452c9757bc14c568f4ed07da8a"
+    },
+    "images/release.png": {
+      "checksum": "a3aad63e50bbd54823ad71aff43a89f4"
     },
     "images/tug-of-war.png": {
       "checksum": "7b29dd575014d67bfdafe105ccf0b28b"
@@ -249,7 +264,7 @@
       "checksum": "9c28a4d1f1502771665328f6abb091c0"
     },
     "index.html": {
-      "checksum": "a14c6b204c06501a1f3ac78e742e09e6"
+      "checksum": "8d25de98dfc86343093927b44060f405"
     },
     "style.css": {
       "checksum": "3f2b897807c27551f3653186bb799f67"

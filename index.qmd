@@ -52,7 +52,7 @@ knitr::opts_chunk$set(
 # Package repositories
 
 ## Installing a package {.huge}
-
+ 
 <br>
 
 ```r
@@ -238,9 +238,49 @@ Trustworthy | Easy
 
 # Community repository
 
-## One-time package registration
+## One-time registration on GitHub {.huge}
 
-## Direct distribution
+<center>
+<img src="./images/register1.png">
+</center>
+
+## Automated review
+
+<br>
+
+<center>
+<img src="./images/register2.png">
+</center>
+
+## Maintainers control releases.
+
+<center>
+<img src="./images/release.png">
+</center>
+
+## Community repo collects releases
+
+<ul>
+<li><a href="https://community.r-multiverse.org/">https://community.r-multiverse.org/</a></li>
+</ul>
+
+<center>
+<img src="./images/community-universe.png">
+</center>
+
+## Installing from Community {.huge}
+
+<br>
+
+```{r, `code-line-numbers` = "2,4"}
+install.packages(
+  "webchem",
+  repos = c(
+    "https://community.r-multiverse.org",
+    getOption("repos")
+  )
+)
+```
 
 # Production repository
 
