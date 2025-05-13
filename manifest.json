@@ -14,6 +14,9 @@
     "images/R-multiverse.png": {
       "checksum": "994c5fed2a0e480e0cc8b8994860a404"
     },
+    "images/tug-of-war.png": {
+      "checksum": "7b29dd575014d67bfdafe105ccf0b28b"
+    },
     "index_files/libs/clipboard/clipboard.min.js": {
       "checksum": "15f52a1ee547f2bdd46e56747332ca2d"
     },
@@ -225,7 +228,7 @@
       "checksum": "9c28a4d1f1502771665328f6abb091c0"
     },
     "index.html": {
-      "checksum": "58083976a29cd1ad3d2f3c22e458e641"
+      "checksum": "81626878d12a0d9570ec084b4c6e6283"
     },
     "style.css": {
       "checksum": "3f2b897807c27551f3653186bb799f67"

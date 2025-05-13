@@ -65,7 +65,7 @@ install.packages(
 
 <br>
 
-```r
+```{r, `code-line-numbers` = "3"}
 install.packages(
   "crew",
   repos = getOption("repos")
@@ -76,7 +76,7 @@ install.packages(
 
 <br>
 
-```r
+```{r, `code-line-numbers` = "3"}
 install.packages(
   "crew",
   repos = "https://cloud.r-project.org"
@@ -87,18 +87,115 @@ install.packages(
 
 <br>
 
-```r
+```{r, `code-line-numbers` = "3"}
 install.packages(
   "crew",
   repos = "https://wlandau.r-universe.dev"
 )
 ```
 
-## Trusted repositories {.huge}
+## Well-known repositories {.huge}
 
-* CRAN: 
+<br>
 
-* Bioconductor:
+Repository | Install
+---|---
+CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | <https://cloud.r-project.org> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+## Well-known repositories {.huge}
+
+<br>
+
+Repository | Install 
+---|---
+CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | <https://cloud.r-project.org> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Bioconductor | `BiocManager::install()`
+
+## Well-known repositories {.huge}
+
+<br>
+
+Repository | Install
+---|---
+CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | <https://cloud.r-project.org> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Bioconductor | `BiocManager::install()`
+R-universe | <https://ANYONE.r-universe.dev>
+
+<br>
+
+* Where should I <span style="font-weight: bold; color: blue;">get</span> packages?
+* Where should I <span style="font-weight: bold; color: blue;">publish</span> packages?
+
+##
+
+<center>
+<img src="./images/tug-of-war.png" width = "700px">
+</center>
+
+:::: {.columns}
+
+::: {.column width=47%}
+
+<center>
+<h3>User want trust.</h3>
+</center>
+
+<center>
+* Working packages
+* Compatible dependencies
+</center>
+
+:::
+
+::: {.column width=53%}
+
+<center>
+<h3>Contributors want ease.</h3>
+</center>
+
+<center>
+* Fast submission
+* Predictable outcomes
+</center>
+
+:::
+
+::::
+
+## Well-known repositories {.huge}
+
+<br>
+
+Repository | Trustworthy | Easy
+---|---|---
+CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
+
+## Well-known repositories {.huge}
+
+<br>
+
+Repository | Trustworthy | Easy
+---|---|---
+CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
+Bioconductor | ✅ |  ❌
+
+## Well-known repositories {.huge}
+
+<br>
+
+Repository | Trustworthy | Easy
+---|---|---
+CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
+Bioconductor | ✅ |  ❌
+R-universe | ⚠️ | ✅ 
+
+## Purpose of R-multiverse {.huge}
+
+<br>
+
+Trustworthy | Easy
+---|---
+✅  | ✅ 
 
 ## Custom repositories
 
@@ -125,3 +222,7 @@ install.packages(
 ## Summary
 
 ## Thanks!
+
+## Image credit
+
+* <https://unsplash.com/photos/2-dogs-playing-on-green-grass-during-daytime-IFK5ROpTimo>
