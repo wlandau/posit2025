@@ -284,9 +284,52 @@ install.packages(
 
 # Production repository
 
-## Short list of checks
+## Production repository {.huge}
 
-## Snapshot cycle
+<br>
+
+* Healthy packages from Community.
+* Deployed in quarterly snapshots.
+* A special Staging universe prepares snapshots.
+    * A soft landing from Community to Production.
+
+## Beginning: packages in flux
+
+<center>
+<img src="./images/snapshot/Slide1.png">
+</center>
+
+## Month 1: dependency freeze
+
+<center>
+<img src="./images/snapshot/Slide2.png">
+</center>
+
+## Month 2: candidate freeze
+
+<center>
+<img src="./images/snapshot/Slide3.png">
+</center>
+
+## Month 3: Production snapshot
+
+<center>
+<img src="./images/snapshot/Slide4.png">
+</center>
+
+## Installing from Production
+
+<br>
+
+```{r, `code-line-numbers` = "2,4,5"}
+install.packages(
+  "polars",
+  repos = c(
+    "https://production.r-multiverse.org/2025-03-15",
+    "https://packagemanager.posit.co/cran/2025-01-15"
+  )
+)
+```
 
 # Recap
 

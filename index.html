@@ -574,11 +574,54 @@ Contributors want ease.
 <h1>Production repository</h1>
 
 </section>
-<section id="short-list-of-checks" class="slide level2">
-<h2>Short list of checks</h2>
+<section id="production-repository-1" class="slide level2 huge">
+<h2>Production repository</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Healthy packages from Community.</li>
+<li class="fragment">Deployed in quarterly snapshots.</li>
+<li class="fragment">A special Staging universe prepares snapshots.
+<ul>
+<li class="fragment">A soft landing from Community to Production.</li>
+</ul></li>
+</ul>
 </section>
-<section id="snapshot-cycle" class="slide level2">
-<h2>Snapshot cycle</h2>
+<section id="beginning-packages-in-flux" class="slide level2">
+<h2>Beginning: packages in flux</h2>
+<center>
+<img src="./images/snapshot/Slide1.png">
+</center>
+</section>
+<section id="month-1-dependency-freeze" class="slide level2">
+<h2>Month 1: dependency freeze</h2>
+<center>
+<img src="./images/snapshot/Slide2.png">
+</center>
+</section>
+<section id="month-2-candidate-freeze" class="slide level2">
+<h2>Month 2: candidate freeze</h2>
+<center>
+<img src="./images/snapshot/Slide3.png">
+</center>
+</section>
+<section id="month-3-production-snapshot" class="slide level2">
+<h2>Month 3: Production snapshot</h2>
+<center>
+<img src="./images/snapshot/Slide4.png">
+</center>
+</section>
+<section id="installing-from-production" class="slide level2">
+<h2>Installing from Production</h2>
+<p><br></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" data-code-line-numbers="2,4,5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href=""></a><span class="fu">install.packages</span>(</span>
+<span id="cb6-2"><a href=""></a>  <span class="st">"polars"</span>,</span>
+<span id="cb6-3"><a href=""></a>  <span class="at">repos =</span> <span class="fu">c</span>(</span>
+<span id="cb6-4"><a href=""></a>    <span class="st">"https://production.r-multiverse.org/2025-03-15"</span>,</span>
+<span id="cb6-5"><a href=""></a>    <span class="st">"https://packagemanager.posit.co/cran/2025-01-15"</span></span>
+<span id="cb6-6"><a href=""></a>  )</span>
+<span id="cb6-7"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section></section>
 <section>
 <section id="recap" class="title-slide slide level1 center">

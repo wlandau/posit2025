@@ -50,6 +50,27 @@
     "images/release.png": {
       "checksum": "a3aad63e50bbd54823ad71aff43a89f4"
     },
+    "images/snapshot.pptx": {
+      "checksum": "c442541c5870dadab634730428a2c1ce"
+    },
+    "images/snapshot/Slide1.png": {
+      "checksum": "1394f0d706ce5bd873bd951fe42a4b2e"
+    },
+    "images/snapshot/Slide2.png": {
+      "checksum": "62153189e750100f5f0d088abb919f6b"
+    },
+    "images/snapshot/Slide3.png": {
+      "checksum": "dcf530a410cc518c2ac332e706539a8d"
+    },
+    "images/snapshot/Slide4.png": {
+      "checksum": "193c1be8928e980d2b0a1ce5456850ba"
+    },
+    "images/snapshot/Slide5.png": {
+      "checksum": "02a11d3fa388a70dfd83539228ea5f2e"
+    },
+    "images/snapshot/Slide6.png": {
+      "checksum": "193c1be8928e980d2b0a1ce5456850ba"
+    },
     "images/tug-of-war.png": {
       "checksum": "7b29dd575014d67bfdafe105ccf0b28b"
     },
@@ -264,7 +285,7 @@
       "checksum": "9c28a4d1f1502771665328f6abb091c0"
     },
     "index.html": {
-      "checksum": "8d25de98dfc86343093927b44060f405"
+      "checksum": "ee77de8d4f1088f70f636faceb14d367"
     },
     "style.css": {
       "checksum": "3f2b897807c27551f3653186bb799f67"
