@@ -194,9 +194,6 @@ CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
 Bioconductor | ✅ |  ❌
 R-universe | ⚠️ | ✅ 
 
-* Most R-universe repositories are small and specialized.
-* Need to trust each maintainer of each separate repository.
-
 ## Purpose of R-multiverse {.huge}
 
 <br>
