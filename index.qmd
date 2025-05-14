@@ -96,7 +96,9 @@ install.packages(
 
 <br>
 
+:::{.nonincremental}
 * R-universe: create your own repository!
+:::
 
 ## Well-known repositories {.huge}
 
@@ -193,6 +195,9 @@ CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
 Bioconductor | ✅ |  ❌
 R-universe | ⚠️ | ✅ 
 
+* R-universe repositories are usually small and specialized.
+* Need to trust each maintainer of each separate repository.
+
 ## Purpose of R-multiverse {.huge}
 
 <br>
@@ -242,11 +247,35 @@ Trustworthy | Easy
 
 # Community repository
 
+## Community repository
+
+<center>
+<img src="./images/community-universe.png">
+</center>
+
+* An R-universe: <https://community.r-multiverse.org>
+* Latest GitHub/GitLab releases of all registered packages.
+
+## Community repository
+
+<center>
+<img src="./images/community-universe.png">
+</center>
+
+* Middle ground between development and production.
+* The "QA" (quality assurance) of R packages.
+
 ## One-time registration on GitHub {.huge}
 
 <center>
 <img src="./images/register1.png">
 </center>
+
+<br>
+
+:::{.nonincremental}
+* GitHub pull request with GitHub/GitLab URL
+:::
 
 ## Automated review
 
@@ -256,21 +285,14 @@ Trustworthy | Easy
 <img src="./images/register2.png">
 </center>
 
-## Maintainers control releases.
+## Releases from GitHub/GitLab
 
 <center>
 <img src="./images/release.png">
 </center>
 
-## Community repo collects releases
-
-<ul>
-<li><a href="https://community.r-multiverse.org/">https://community.r-multiverse.org/</a></li>
-</ul>
-
-<center>
-<img src="./images/community-universe.png">
-</center>
+* Releases pulled directly from GitHub/GitLab.
+* Package maintainers have complete control!
 
 ## Installing from Community {.huge}
 
@@ -288,37 +310,55 @@ install.packages(
 
 # Production repository
 
-## Production repository {.Huge}
-
-<br>
+## Production repository
 
 * Healthy packages from Community.
-* Deployed in quarterly snapshots.
-* A special Staging universe prepares snapshots.
-    * A soft landing from Community to Production.
+* What makes a package "healthy"?
+    1. Free open-source license.
+    2. No [security advisories](https://github.com/RConsortium/r-advisory-database).
+    3. No `ERROR`s from `WARNING`s from `R CMD check` (or `build`).
+    4. Version number etiquette.
+    5. Healthy dependencies.
+* Requirements are transparent and achievable.
+    * Incentivizes thorough testing.
 
-## Start with everything in flux
+## Production snapshots
+
+<center>
+<img src="./images/calendar.jpg" height="350px">
+</center>
+
+* Production is deployed 4 snapshots each year.
+* Soft landing from Community to Production.
+
+## Staging universe manages transition
 
 <center>
 <img src="./images/snapshot/Slide1.png">
 </center>
 
-## Month 1: dependency freeze
+## Goal: Production snapshot
 
 <center>
 <img src="./images/snapshot/Slide2.png">
 </center>
 
-## Month 2: candidate freeze
+## Month 1: dependency freeze
 
 <center>
 <img src="./images/snapshot/Slide3.png">
 </center>
 
-## Month 3: Production snapshot
+## Month 2: candidate freeze
 
 <center>
 <img src="./images/snapshot/Slide4.png">
+</center>
+
+## Month 3: Production snapshot
+
+<center>
+<img src="./images/snapshot/Slide5.png">
 </center>
 
 ## Installing from Production {.production}
@@ -339,7 +379,24 @@ install.packages(
 
 ## Summary
 
+* Users and contributors have distinct needs.
+* R-multiverse serves both.
+* Maintainer-friendly approach:
+    1. Easy one-time package registration.
+    2. Community repository with package authors in control.
+    3. Production repository with achievable requirements.
+
 ## Thanks!
+
+* R-multiverse co-administrators: Maëlle Salmon, Charlie Gao, Jeroen Ooms.
+* R-universe: Jeroen Ooms and rOpenSci.
+* R Consortium:
+    * R Repositories Working Group
+    * ISC grant 24-ISC-1-05 (2024 H1)
+
+## Thanks!
+
+![](./images/slides.svg){fig-align="center"}
 
 ## Image credit {.tiny}
 
@@ -349,3 +406,4 @@ install.packages(
 * <https://brand.github.com/foundations/logo>
 * <https://unsplash.com/photos/2-dogs-playing-on-green-grass-during-daytime-IFK5ROpTimo>
 * <https://unsplash.com/photos/red-and-white-brick-wall-zb-ico2Kcg4>
+* <https://unsplash.com/photos/white-printer-paperr-FoKO4DpXamQ>

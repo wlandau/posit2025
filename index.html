@@ -263,7 +263,7 @@ Will Landau
 </div>
 <p><br></p>
 <ul>
-<li class="fragment">R-universe: create your own repository!</li>
+<li>R-universe: create your own repository!</li>
 </ul>
 </section>
 <section id="well-known-repositories" class="slide level2 huge">
@@ -458,6 +458,10 @@ Contributors want ease.
 </tr>
 </tbody>
 </table>
+<ul>
+<li class="fragment">R-universe repositories are usually small and specialized.</li>
+<li class="fragment">Need to trust each maintainer of each separate repository.</li>
+</ul>
 </section>
 <section id="purpose-of-r-multiverse" class="slide level2 huge">
 <h2>Purpose of R-multiverse</h2>
@@ -530,11 +534,35 @@ Contributors want ease.
 <h1>Community repository</h1>
 
 </section>
+<section id="community-repository-1" class="slide level2">
+<h2>Community repository</h2>
+<center>
+<img src="./images/community-universe.png">
+</center>
+<ul>
+<li class="fragment">An R-universe: <a href="https://community.r-multiverse.org" class="uri">https://community.r-multiverse.org</a></li>
+<li class="fragment">Latest GitHub/GitLab releases of all registered packages.</li>
+</ul>
+</section>
+<section id="community-repository-2" class="slide level2">
+<h2>Community repository</h2>
+<center>
+<img src="./images/community-universe.png">
+</center>
+<ul>
+<li class="fragment">Middle ground between development and production.</li>
+<li class="fragment">The “QA” (quality assurance) of R packages.</li>
+</ul>
+</section>
 <section id="one-time-registration-on-github" class="slide level2 huge">
 <h2>One-time registration on GitHub</h2>
 <center>
 <img src="./images/register1.png">
 </center>
+<p><br></p>
+<ul>
+<li>GitHub pull request with GitHub/GitLab URL</li>
+</ul>
 </section>
 <section id="automated-review" class="slide level2">
 <h2>Automated review</h2>
@@ -543,22 +571,15 @@ Contributors want ease.
 <img src="./images/register2.png">
 </center>
 </section>
-<section id="maintainers-control-releases." class="slide level2">
-<h2>Maintainers control releases.</h2>
+<section id="releases-from-githubgitlab" class="slide level2">
+<h2>Releases from GitHub/GitLab</h2>
 <center>
 <img src="./images/release.png">
 </center>
-</section>
-<section id="community-repo-collects-releases" class="slide level2">
-<h2>Community repo collects releases</h2>
 <ul>
-<li>
-<a href="https://community.r-multiverse.org/">https://community.r-multiverse.org/</a>
-</li>
+<li class="fragment">Releases pulled directly from GitHub/GitLab.</li>
+<li class="fragment">Package maintainers have complete control!</li>
 </ul>
-<center>
-<img src="./images/community-universe.png">
-</center>
 </section>
 <section id="installing-from-community" class="slide level2 huge">
 <h2>Installing from Community</h2>
@@ -578,40 +599,62 @@ Contributors want ease.
 <h1>Production repository</h1>
 
 </section>
-<section id="production-repository-1" class="slide level2 Huge">
+<section id="production-repository-1" class="slide level2">
 <h2>Production repository</h2>
-<p><br></p>
 <ul>
 <li class="fragment">Healthy packages from Community.</li>
-<li class="fragment">Deployed in quarterly snapshots.</li>
-<li class="fragment">A special Staging universe prepares snapshots.
+<li class="fragment">What makes a package “healthy”?
+<ol type="1">
+<li class="fragment">Free open-source license.</li>
+<li class="fragment">No <a href="https://github.com/RConsortium/r-advisory-database">security advisories</a>.</li>
+<li class="fragment">No <code>ERROR</code>s from <code>WARNING</code>s from <code>R CMD check</code> (or <code>build</code>).</li>
+<li class="fragment">Version number etiquette.</li>
+<li class="fragment">Healthy dependencies.</li>
+</ol></li>
+<li class="fragment">Requirements are transparent and achievable.
 <ul>
-<li class="fragment">A soft landing from Community to Production.</li>
+<li class="fragment">Incentivizes thorough testing.</li>
 </ul></li>
 </ul>
 </section>
-<section id="start-with-everything-in-flux" class="slide level2">
-<h2>Start with everything in flux</h2>
+<section id="production-snapshots" class="slide level2">
+<h2>Production snapshots</h2>
+<center>
+<img src="./images/calendar.jpg" height="350px">
+</center>
+<ul>
+<li class="fragment">Production is deployed 4 snapshots each year.</li>
+<li class="fragment">Soft landing from Community to Production.</li>
+</ul>
+</section>
+<section id="staging-universe-manages-transition" class="slide level2">
+<h2>Staging universe manages transition</h2>
 <center>
 <img src="./images/snapshot/Slide1.png">
+</center>
+</section>
+<section id="goal-production-snapshot" class="slide level2">
+<h2>Goal: Production snapshot</h2>
+<center>
+<img src="./images/snapshot/Slide2.png">
 </center>
 </section>
 <section id="month-1-dependency-freeze" class="slide level2">
 <h2>Month 1: dependency freeze</h2>
 <center>
-<img src="./images/snapshot/Slide2.png">
+<img src="./images/snapshot/Slide3.png">
 </center>
 </section>
 <section id="month-2-candidate-freeze" class="slide level2">
 <h2>Month 2: candidate freeze</h2>
 <center>
-<img src="./images/snapshot/Slide3.png">
+<img src="./images/snapshot/Slide4.png">
 </center>
 </section>
 <section id="month-3-production-snapshot" class="slide level2">
 <h2>Month 3: Production snapshot</h2>
 <center>
-<img src="./images/snapshot/Slide4.png">
+<img src="./images/snapshot/Slide5.png">
 </center>
 </section>
 <section id="installing-from-production" class="slide level2 production">
@@ -634,10 +677,33 @@ Contributors want ease.
 </section>
 <section id="summary" class="slide level2">
 <h2>Summary</h2>
+<ul>
+<li class="fragment">Users and contributors have distinct needs.</li>
+<li class="fragment">R-multiverse serves both.</li>
+<li class="fragment">Maintainer-friendly approach:
+<ol type="1">
+<li class="fragment">Easy one-time package registration.</li>
+<li class="fragment">Community repository with package authors in control.</li>
+<li class="fragment">Production repository with achievable requirements.</li>
+</ol></li>
+</ul>
 </section>
 <section id="thanks" class="slide level2">
 <h2>Thanks!</h2>
+<ul>
+<li class="fragment">R-multiverse co-administrators: Maëlle Salmon, Charlie Gao, Jeroen Ooms.</li>
+<li class="fragment">R-universe: Jeroen Ooms and rOpenSci.</li>
+<li class="fragment">R Consortium:
+<ul>
+<li class="fragment">R Repositories Working Group</li>
+<li class="fragment">ISC grant 24-ISC-1-05 (2024 H1)</li>
+</ul></li>
+</ul>
 </section>
+<section id="thanks-1" class="slide level2">
+<h2>Thanks!</h2>
+
+<img data-src="./images/slides.svg" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="image-credit" class="slide level2 tiny">
 <h2>Image credit</h2>
 <ul>
@@ -647,6 +713,7 @@ Contributors want ease.
 <li class="fragment"><a href="https://brand.github.com/foundations/logo" class="uri">https://brand.github.com/foundations/logo</a></li>
 <li class="fragment"><a href="https://unsplash.com/photos/2-dogs-playing-on-green-grass-during-daytime-IFK5ROpTimo" class="uri">https://unsplash.com/photos/2-dogs-playing-on-green-grass-during-daytime-IFK5ROpTimo</a></li>
 <li class="fragment"><a href="https://unsplash.com/photos/red-and-white-brick-wall-zb-ico2Kcg4" class="uri">https://unsplash.com/photos/red-and-white-brick-wall-zb-ico2Kcg4</a></li>
+<li class="fragment"><a href="https://unsplash.com/photos/white-printer-paperr-FoKO4DpXamQ" class="uri">https://unsplash.com/photos/white-printer-paperr-FoKO4DpXamQ</a></li>
 </ul>
 
 </section></section>
