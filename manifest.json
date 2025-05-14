@@ -35,6 +35,9 @@
     "images/built-with/Slide4.png": {
       "checksum": "59790d854cd3651cf38d06e6f66c8329"
     },
+    "images/calendar.jpg": {
+      "checksum": "dc2f42986faa73193de2cebfbf6ce6ca"
+    },
     "images/community-universe.png": {
       "checksum": "d4f0512ce52b9e1efd520a7d3c17107a"
     },
@@ -50,26 +53,26 @@
     "images/release.png": {
       "checksum": "a3aad63e50bbd54823ad71aff43a89f4"
     },
+    "images/slides.svg": {
+      "checksum": "55769ae5a111fc1d556f72c19cae7f6d"
+    },
     "images/snapshot.pptx": {
-      "checksum": "c442541c5870dadab634730428a2c1ce"
+      "checksum": "35ff57b15c0139222d7be7ddf745cb56"
     },
     "images/snapshot/Slide1.png": {
-      "checksum": "1394f0d706ce5bd873bd951fe42a4b2e"
+      "checksum": "cd78bd011956bcc94edb769589905f95"
     },
     "images/snapshot/Slide2.png": {
-      "checksum": "62153189e750100f5f0d088abb919f6b"
+      "checksum": "85d020b5c12898e2c917b22dee8727a8"
     },
     "images/snapshot/Slide3.png": {
-      "checksum": "dcf530a410cc518c2ac332e706539a8d"
+      "checksum": "3fad311bfb479286b17f2b3ea286a6eb"
     },
     "images/snapshot/Slide4.png": {
-      "checksum": "193c1be8928e980d2b0a1ce5456850ba"
+      "checksum": "10dad7bae86b3ed7a55d2a79bdb4ec24"
     },
     "images/snapshot/Slide5.png": {
-      "checksum": "02a11d3fa388a70dfd83539228ea5f2e"
-    },
-    "images/snapshot/Slide6.png": {
-      "checksum": "193c1be8928e980d2b0a1ce5456850ba"
+      "checksum": "8efa556cf191b77045c6c065f7d00335"
     },
     "images/tug-of-war.png": {
       "checksum": "7b29dd575014d67bfdafe105ccf0b28b"
@@ -285,10 +288,10 @@
       "checksum": "9c28a4d1f1502771665328f6abb091c0"
     },
     "index.html": {
-      "checksum": "ee77de8d4f1088f70f636faceb14d367"
+      "checksum": "b86cce5b7cf4ec7e3c8f4bccc965e8b3"
     },
     "style.css": {
-      "checksum": "3f2b897807c27551f3653186bb799f67"
+      "checksum": "47de93da522e631191fb150ef29bbde2"
     }
   },
   "users": null
