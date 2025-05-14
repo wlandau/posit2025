@@ -97,7 +97,7 @@ install.packages(
 <br>
 
 :::{.nonincremental}
-* R-universe: create your own repository!
+* R-universe lets you make your own repository!
 :::
 
 ## Well-known repositories {.huge}
@@ -134,20 +134,18 @@ R-universe | <https://ANYONE.r-universe.dev>
 
 ##
 
-<center>
-<img src="./images/tug-of-war.png" width = "700px">
-</center>
+![](./images/tug-of-war.png){fig-align="center"}
 
 :::: {.columns}
 
 ::: {.column width=47%}
 
 <center>
-<h3>User want trust.</h3>
+<h3>Users want trust.</h3>
 </center>
 
 <center>
-* Working packages
+* Quality packages
 * Compatible dependencies
 </center>
 
@@ -160,8 +158,9 @@ R-universe | <https://ANYONE.r-universe.dev>
 </center>
 
 <center>
+* Achievable requirements
 * Fast submission
-* Predictable outcomes
+* Control over the release cycle
 </center>
 
 :::
@@ -208,93 +207,73 @@ Trustworthy | Easy
 
 # R-multiverse
 
-## What is R-multiverse?
-
-* Dual repository
-    1. Community: an <span style = "color: blue; font-weight: bold">R-universe</span> with all the latest releases.
-    2. Production: quarterly snapshots of only healthy releases.
+## R-multiverse: a dual repository
 
 <br>
 
-* Key features
-    * Package maintainers directly control releases.
-    * Transparent governance, policies, and checks.
-    * High automation.
+1. Community: an R-universe repository with latest releases.
+2. Production: quarterly snapshots of only healthy releases.
+
+## Key features
+
+<br>
+
+* Package maintainers directly control releases.
+* Transparent governance, policies, and checks.
+* High automation.
 
 ## Built with...
 
-<center>
-<img src="./images/built-with/Slide1.png">
-</center>
+![](./images/built-with/Slide1.png){fig-align="center"}
 
 ## Built with...
 
-<center>
-<img src="./images/built-with/Slide2.png">
-</center>
+![](./images/built-with/Slide2.png){fig-align="center"}
 
 ## Built with...
 
-<center>
-<img src="./images/built-with/Slide3.png">
-</center>
+![](./images/built-with/Slide3.png){fig-align="center"}
 
 ## Built with...
 
-<center>
-<img src="./images/built-with/Slide4.png">
-</center>
+![](./images/built-with/Slide4.png){fig-align="center"}
 
 # Community repository
 
 ## Community repository
 
-<center>
-<img src="./images/community-universe.png">
-</center>
+![](./images/community-universe.png){fig-align="center"}
 
-* An R-universe: <https://community.r-multiverse.org>
+* An R-universe repository: [community.r-multiverse.org](https://community.r-multiverse.org)
 * Latest GitHub/GitLab releases of all registered packages.
 
 ## Community repository
 
-<center>
-<img src="./images/community-universe.png">
-</center>
+![](./images/community-universe.png){fig-align="center"}
 
 * Middle ground between development and production.
 * The "QA" (quality assurance) of R packages.
 
 ## One-time registration on GitHub {.huge}
 
-<center>
-<img src="./images/register1.png">
-</center>
+![](./images/register1.png){fig-align="center"}
 
 <br>
-
-:::{.nonincremental}
-* GitHub pull request with GitHub/GitLab URL
-:::
 
 ## Automated review
 
 <br>
 
-<center>
-<img src="./images/register2.png">
-</center>
+![](./images/register2.png){fig-align="center"}
 
 ## Releases from GitHub/GitLab
 
-<center>
-<img src="./images/release.png">
-</center>
+![](./images/release.png){fig-align="center"}
 
-* Releases pulled directly from GitHub/GitLab.
+* Releases come directly from GitHub/GitLab.
 * Package maintainers have complete control!
 
-## Installing from Community {.huge}
+## Installing from Community repository {.huge}
 
 <br>
 
@@ -310,58 +289,44 @@ install.packages(
 
 # Production repository
 
-## Production repository
+## Transparent achievable requirements
 
-* Healthy packages from Community.
-* What makes a package "healthy"?
-    1. Free open-source license.
-    2. No [security advisories](https://github.com/RConsortium/r-advisory-database).
-    3. No `ERROR`s from `WARNING`s from `R CMD check` (or `build`).
-    4. Version number etiquette.
-    5. Healthy dependencies.
-* Requirements are transparent and achievable.
-    * Incentivizes thorough testing.
+<br>
 
-## Production snapshots
+1. Free open-source license.
+2. No [security advisories](https://github.com/RConsortium/r-advisory-database).
+3. No `ERROR`s from `WARNING`s from `R CMD check` (or `build`).
+4. Version etiquette.
+5. Healthy dependencies.
 
-<center>
-<img src="./images/calendar.jpg" height="350px">
-</center>
+## Quarterly snapshots
+
+![](./images/calendar.jpg){fig-align="center"}
 
 * Production is deployed 4 snapshots each year.
 * Soft landing from Community to Production.
 
 ## Staging universe manages transition
 
-<center>
-<img src="./images/snapshot/Slide1.png">
-</center>
+![](./images/snapshot/Slide1.png){fig-align="center"}
 
 ## Goal: Production snapshot
 
-<center>
-<img src="./images/snapshot/Slide2.png">
-</center>
+![](./images/snapshot/Slide2.png){fig-align="center"}
 
 ## Month 1: dependency freeze
 
-<center>
-<img src="./images/snapshot/Slide3.png">
-</center>
+![](./images/snapshot/Slide3.png){fig-align="center"}
 
 ## Month 2: candidate freeze
 
-<center>
-<img src="./images/snapshot/Slide4.png">
-</center>
+![](./images/snapshot/Slide4.png){fig-align="center"}
 
 ## Month 3: Production snapshot
 
-<center>
-<img src="./images/snapshot/Slide5.png">
-</center>
+![](./images/snapshot/Slide5.png){fig-align="center"}
 
-## Installing from Production {.production}
+## Installing from Production repository {.production}
 
 <br>
 
@@ -377,28 +342,41 @@ install.packages(
 
 # Recap
 
-## Summary
+## Summary {.Huge}
+
+<br>
 
 * Users and contributors have distinct needs.
 * R-multiverse serves both.
-* Maintainer-friendly approach:
-    1. Easy one-time package registration.
-    2. Community repository with package authors in control.
-    3. Production repository with achievable requirements.
+
+## Maintainer-friendly approach
+
+<br>
+
+1. Easy one-time package registration.
+2. Community repository with package authors in control.
+3. Production repository with achievable requirements.
 
 ## Thanks!
 
-* R-multiverse co-administrators: Maëlle Salmon, Charlie Gao, Jeroen Ooms.
+:::{.nonincremental}
+* R-multiverse co-administrators
+    * Maëlle Salmon
+    * Charlie Gao
+    * Jeroen Ooms
+:::
 * R-universe: Jeroen Ooms and rOpenSci.
 * R Consortium:
     * R Repositories Working Group
     * ISC grant 24-ISC-1-05 (2024 H1)
 
-## Thanks!
+## Link to these slides:
 
 ![](./images/slides.svg){fig-align="center"}
 
 ## Image credit {.tiny}
+
+:::{.nonincremental}
 
 * <https://github.com/ropensci-org/contributing-guidance/blob/main/images/runiverse.png>
 * Stefanie Butland & Steffi LaZerte (2020). rOpenSci Community Contributing Guide v0.1.0. <http://doi.org/10.5281/zenodo.4000531>
@@ -407,3 +385,4 @@ install.packages(
 * <https://unsplash.com/photos/2-dogs-playing-on-green-grass-during-daytime-IFK5ROpTimo>
 * <https://unsplash.com/photos/red-and-white-brick-wall-zb-ico2Kcg4>
 * <https://unsplash.com/photos/white-printer-paperr-FoKO4DpXamQ>
+:::
