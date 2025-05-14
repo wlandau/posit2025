@@ -94,6 +94,10 @@ install.packages(
 )
 ```
 
+<br>
+
+* R-universe: create your own repository!
+
 ## Well-known repositories {.huge}
 
 <br>
