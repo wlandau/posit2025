@@ -343,8 +343,8 @@ install.packages(
 <br>
 
 1. Easy one-time package registration.
-2. Community repository with package authors in control.
-3. Production repository with gentle requirements.
+2. Package maintainers control releases in Community.
+3. Gentle requirements for Production.
 
 ## Thanks!
 
