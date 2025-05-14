@@ -212,25 +212,25 @@ Trustworthy | Easy
     * Transparent governance, policies, and checks.
     * High automation.
 
-## Built with:
+## Built with...
 
 <center>
 <img src="./images/built-with/Slide1.png">
 </center>
 
-## Built with:
+## Built with...
 
 <center>
 <img src="./images/built-with/Slide2.png">
 </center>
 
-## Built with:
+## Built with...
 
 <center>
 <img src="./images/built-with/Slide3.png">
 </center>
 
-## Built with:
+## Built with...
 
 <center>
 <img src="./images/built-with/Slide4.png">
@@ -293,7 +293,7 @@ install.packages(
 * A special Staging universe prepares snapshots.
     * A soft landing from Community to Production.
 
-## Beginning: packages in flux
+## Start with everything in flux
 
 <center>
 <img src="./images/snapshot/Slide1.png">
@@ -317,7 +317,7 @@ install.packages(
 <img src="./images/snapshot/Slide4.png">
 </center>
 
-## Installing from Production {.medium}
+## Installing from Production {.production}
 
 <br>
 

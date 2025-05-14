@@ -2,6 +2,10 @@ pre > code.sourceCode {
   font-size: 1.5em !important;
 }
 
+.production pre > code.sourceCode {
+  font-size: 1.28em !important;
+}
+
 .reveal code {
   max-height: 100% !important;
 }
