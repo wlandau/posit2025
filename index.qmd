@@ -343,7 +343,7 @@ install.packages(
 <br>
 
 1. Easy one-time package registration.
-2. Package maintainers control releases in Community.
+2. Package maintainers control Community releases. 
 3. Gentle requirements for Production.
 
 ## Thanks!
