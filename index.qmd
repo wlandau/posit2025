@@ -214,14 +214,6 @@ Trustworthy | Easy
 1. Community: an R-universe repository with latest releases.
 2. Production: quarterly snapshots of only healthy releases.
 
-## Key features
-
-<br>
-
-* Package maintainers directly control releases.
-* Transparent governance, policies, and checks.
-* High automation.
-
 ## Built with...
 
 ![](./images/built-with/Slide1.png){fig-align="center"}
