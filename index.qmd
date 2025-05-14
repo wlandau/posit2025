@@ -158,7 +158,7 @@ R-universe | <https://ANYONE.r-universe.dev>
 </center>
 
 <center>
-* Achievable requirements
+* Gentle requirements
 * Fast submission
 * Control over the release cycle
 </center>
@@ -289,7 +289,7 @@ install.packages(
 
 # Production repository
 
-## Transparent achievable requirements
+## Gentle requirements
 
 <br>
 
@@ -355,7 +355,7 @@ install.packages(
 
 1. Easy one-time package registration.
 2. Community repository with package authors in control.
-3. Production repository with achievable requirements.
+3. Production repository with gentle requirements.
 
 ## Thanks!
 
