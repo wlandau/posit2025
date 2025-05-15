@@ -248,8 +248,13 @@ Latest GitHub/GitLab releases of all registered packages.
 
 ![](./images/community-universe.png){fig-align="center"}
 
-* Middle ground between development and production.
-* The "QA" (quality assurance) of R packages.
+. . .
+
+Middle ground between development and production.
+
+. . .  
+
+The "QA" (quality assurance) of R packages.
 
 ## One-time registration on GitHub {.huge}
 
