@@ -160,8 +160,6 @@ Can we scale this inclusive approach?
 
 ## Key features
 
-<br>
-
 1. High automation
 1. Democratic:
     * [x] Package contributors control the release cycle.
