@@ -280,7 +280,7 @@ Releases come directly from GitHub/GitLab.
 
 Package maintainers have complete control!
 
-## Installing from Community repository {.huge}
+## Installing from the Community repository {.huge}
 
 <br>
 
@@ -333,7 +333,7 @@ install.packages(
 
 ![](./images/snapshot/Slide5.png){fig-align="center"}
 
-## Installing from Production repository {.production}
+## Installing from the Production repository {.production}
 
 <br>
 
