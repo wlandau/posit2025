@@ -310,8 +310,13 @@ install.packages(
 
 ![](./images/calendar.jpg){fig-align="center"}
 
-* Production is deployed 4 snapshots each year.
-* Soft landing from Community to Production.
+. . .
+
+Production is deployed 4 snapshots each year.
+
+. . .
+
+Soft landing from Community to Production.
 
 ## Staging universe manages transition
 
