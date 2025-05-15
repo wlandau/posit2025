@@ -42,51 +42,54 @@ knitr::opts_chunk$set(
 </style>
 
 <center>
-<h3>A new dual repository for R packages</h3>
+<h3>A new democratic dual repository<br>for R packages</h3>
 <img src="./images/R-multiverse.png" height="400px">
 <br>
 <h4>Will Landau</h4>
 </center>
 
-# Background: R-universe
+# Background
 
-## Installing a package {.huge}
- 
-<br>
+## 
 
-```r
-install.packages(
-  "crew"
-)
-```
-
-## What's really happening {.huge}
-
-<br>
-
-```{r, `code-line-numbers` = "3"}
-install.packages(
-  "crew",
-  repos = getOption("repos")
-)
-```
-
-## You can choose the repository {.huge}
-
-<br>
-
-```{r, `code-line-numbers` = "3"}
-install.packages(
-  "targets",
-  repos = "https://wlandau.r-universe.dev"
-)
-```
-
-<br>
+![](./images/ropensci.svg){fig-align="center"}
 
 . . .
 
-I created <https://wlandau.r-universe.dev> with R-universe!
+Social and technical infrastructure for R.
+
+. . . 
+
+Helps users find R packages.
+
+. . . 
+
+Helps packages become visible and accessible.
+
+
+## Peer-reviewed packages
+
+![](./images/ropensci-packages.png){fig-align="center"}
+
+## My start in open-source
+
+![](./images/drake.png){fig-align="center"}
+
+##
+
+![](./images/runiverse.png){fig-align="center"}
+
+. . .
+
+R-universe: R package publication platform by rOpenSci.
+
+. . .
+
+Improves accessibility and discovery of research software in R.
+
+. . .
+
+Lets you create your own R package repository.
 
 ## Step 1: list the packages
 
@@ -98,7 +101,8 @@ I created <https://wlandau.r-universe.dev> with R-universe!
 [
   {
     "package": "targets",
-    "url": "https://github.com/ropensci/targets"
+    "url": "https://github.com/ropensci/targets",
+    "branch": "*release"
   },
   {
     "package": "crew",
@@ -119,56 +123,56 @@ I created <https://wlandau.r-universe.dev> with R-universe!
 
 ![](./images/wlandau-universe.png){fig-align="center"}
 
-## Deploy the lastest release
+## Package installation
 
 <br>
 
-<div style="font-size:0.9em">
-
-```{json, `code-line-numbers` = "4"}
-  {
-    "package": "targets",
-    "url": "https://github.com/ropensci/targets",
-    "branch": "*release"
-  }
+```{r, `code-line-numbers` = "2,4"}
+install.packages(
+  "targets",
+  repos = c(
+    "https://wlandau.r-universe.dev",
+    getOption("repos")
+  )
+)
 ```
 
-</div>
+<br>
 
-## R-universe is community-driven {.Huge}
+## Continuing the same mission...
 
 <br>
 
-1. Package authors control publishing.
-2. Package updates are frictionless.
+* [x] Democratic community-driven publication process.
+* [x] Transparent governance.
+* [x] Open infrastructure.
+* [ ] Broaden the visibility of packages.
+* [ ] Focus on package releases.
+* [ ] Prepare for production scenarios.
 
-. . .
+## ...with R-multiverse
 
 <br>
 
-Can we scale this inclusive approach? 
+:::{.nonincremental}
 
+* [x] Democratic community-driven publication process.
+* [x] Transparent governance.
+* [x] Open infrastructure.
+* [x] Broaden the visibility of packages.
+* [x] Focus on package releases.
+* [x] Prepare for production scenarios.
+
+:::
 
 # R-multiverse
 
-## R-multiverse: a dual repository
+## A dual repository
 
-<br>
+![](./images/R-multiverse.png){fig-align="center"}
 
 1. Community: R-universe repository with latest releases.
 2. Production: quarterly snapshots of only healthy releases.
-
-## Key features
-
-1. High automation
-1. Democratic:
-    * [x] Package contributors control the release cycle.
-    * [x] Recruiting moderators from across the community.
-1. Transparent and open:
-    * [x] Governance
-    * [x] Policies
-    * [x] Communication
-    * [x] Infrastructure
 
 # Community repository
 
@@ -208,19 +212,11 @@ The "QA" (quality assurance) of R packages.
 
 ![](./images/register2.png){fig-align="center"}
 
-## Releases from GitHub/GitLab
+## New releases direct from maintainers
 
 ![](./images/release.png){fig-align="center"}
 
-. . .
-
-Releases come directly from GitHub/GitLab.
-
-. . . 
-
-Package maintainers have complete control!
-
-## Installing from the Community repository {.huge}
+## Installing from Community {.huge}
 
 <br>
 
@@ -272,7 +268,7 @@ Soft landing from Community to Production.
 
 ![](./images/snapshot/Slide5.png){fig-align="center"}
 
-## Installing from the Production repository {.production}
+## Installing from Production {.production}
 
 <br>
 
@@ -290,20 +286,37 @@ install.packages(
 
 ## Summary {.Huge}
 
+<br>
 
+rOpenSci/R-universe help publish and discover R packages.
 
-## Thanks!
+. . . 
 
-:::{.nonincremental}
+<br>
+
+R-multiverse improves reach and rigor with a democratic dual repository.
+
+. . .
+
+<br>
+
+Now recruiting new packages and new moderators.
+
+## Thanks! {.medium}
+
+::: {.nonincremental}
+
 * R-multiverse co-administrators
     * Charlie Gao
     * Jeroen Ooms
     * Maëlle Salmon
-:::
+* rOpenSci: <https://ropensci.org/about/>
 * R-universe: Jeroen Ooms and rOpenSci.
 * R Consortium:
     * R Repositories Working Group
     * ISC grant 24-ISC-1-05 (2024 H1)
+
+:::
 
 ## Link to these slides:
 
@@ -315,10 +328,8 @@ install.packages(
 
 :::{.nonincremental}
 
+* <https://github.com/ropensci/logos/blob/master/icon_lettering_color.svg>
 * <https://github.com/ropensci-org/contributing-guidance/blob/main/images/runiverse.png>
 * Stefanie Butland & Steffi LaZerte (2020). rOpenSci Community Contributing Guide v0.1.0. <http://doi.org/10.5281/zenodo.4000531>
-* <https://www.r-project.org/logo/>
-* <https://brand.github.com/foundations/logo>
-* <https://unsplash.com/photos/red-and-white-brick-wall-zb-ico2Kcg4>
 * <https://unsplash.com/photos/white-printer-paperr-FoKO4DpXamQ>
 :::
