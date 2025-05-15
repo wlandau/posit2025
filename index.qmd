@@ -42,13 +42,13 @@ knitr::opts_chunk$set(
 </style>
 
 <center>
-<h3>A contributor-friendly dual repository<br>for R packages</h3>
+<h3>A new dual repository for R packages</h3>
 <img src="./images/R-multiverse.png" height="400px">
 <br>
 <h4>Will Landau</h4>
 </center>
 
-# Package repositories
+# Background: R-universe
 
 ## Installing a package {.huge}
  
@@ -71,138 +71,83 @@ install.packages(
 )
 ```
 
-## Choosing a repository {.huge}
+## You can choose the repository {.huge}
 
 <br>
 
 ```{r, `code-line-numbers` = "3"}
 install.packages(
-  "crew",
-  repos = "https://cloud.r-project.org"
-)
-```
-
-## Choosing a repository {.huge}
-
-<br>
-
-```{r, `code-line-numbers` = "3"}
-install.packages(
-  "crew",
+  "targets",
   repos = "https://wlandau.r-universe.dev"
 )
 ```
 
 <br>
 
-R-universe lets you make your own repository!
+. . .
 
-## Well-known repositories {.huge}
+I created <https://wlandau.r-universe.dev> with R-universe!
+
+## Step 1: list the packages
+
+<div style="font-size:0.9em">
+
+`packages.json` file at [github.com/wlandau/wlandau.r-universe.dev](https://github.com/wlandau/wlandau.r-universe.dev):
+
+```json
+[
+  {
+    "package": "targets",
+    "url": "https://github.com/ropensci/targets"
+  },
+  {
+    "package": "crew",
+    "url": "https://github.com/wlandau/crew"
+  },
+  ...
+```
+
+</div>
+
+## Step 2: install the GitHub app
+
+<https://github.com/apps/r-universe/installations/select_target>
+
+![](./images/install-r-universe.png){fig-align="center"}
+
+## Discoverable packages
+
+![](./images/wlandau-universe.png){fig-align="center"}
+
+## Deploy the lastest release
 
 <br>
 
-Repository | Install
----|---
-CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | <https://cloud.r-project.org> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<div style="font-size:0.9em">
 
-## Well-known repositories {.huge}
+```{json, `code-line-numbers` = "4"}
+  {
+    "package": "targets",
+    "url": "https://github.com/ropensci/targets",
+    "branch": "*release"
+  }
+```
 
-<br>
+</div>
 
-Repository | Install 
----|---
-CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | <https://cloud.r-project.org> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-Bioconductor | `BiocManager::install()`
-
-## Well-known repositories {.huge}
-
-<br>
-
-Repository | Install
----|---
-CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | <https://cloud.r-project.org> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-Bioconductor | `BiocManager::install()`
-R-universe | <https://ANYONE.r-universe.dev>
+## R-universe is community-driven {.Huge}
 
 <br>
+
+1. Package authors control publishing.
+2. Package updates are frictionless.
 
 . . .
 
-Where should I <span style="font-weight: bold; font-style: italic; color: blue;">get</span> packages?
-
-. . .
-
-Where should I <span style="font-weight: bold; font-style: italic; color: blue;">publish</span> packages?
-
-##
-
-![](./images/tug-of-war.png){fig-align="center"}
-
-:::: {.columns}
-
-::: {.column width=50%}
-
-<center style = "font-size: 0.95em;">
-<h3>Users want trust.</h3>
-</center>
-
-<center style = "font-size: 0.85em;">
-* [x] Quality packages
-* [x] Compatible dependencies
-</center>
-
-:::
-
-::: {.column width=50%}
-
-<center style = "font-size: 0.95em;">
-<h3>Contributors want ease.</h3>
-</center>
-
-<center style = "font-size: 0.85em;">
-* [x] Gentle requirements
-* [x] Fast submission
-* [x] Control over the release cycle
-</center>
-
-:::
-
-::::
-
-## Well-known repositories {.huge}
-
 <br>
 
-Repository | Trustworthy | Easy&nbsp;to&nbsp;contribute
----|---|---
-CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
+Can we scale this inclusive approach? 
 
-## Well-known repositories {.huge}
-
-<br>
-
-Repository | Trustworthy | Easy&nbsp;to&nbsp;contribute
----|---|---
-CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
-Bioconductor | ✅ |  ❌
-
-## Well-known repositories {.huge}
-
-<br>
-
-Repository | Trustworthy | Easy&nbsp;to&nbsp;contribute
----|---|---
-CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
-Bioconductor | ✅ |  ❌
-R-universe | ⚠️ | ✅ 
-
-## Purpose of R-multiverse {.huge}
-
-<br>
-
-Trustworthy | Easy&nbsp;to&nbsp;contribute
----|---
-✅  | ✅ 
 
 # R-multiverse
 
@@ -210,24 +155,22 @@ Trustworthy | Easy&nbsp;to&nbsp;contribute
 
 <br>
 
-1. Community: an R-universe repository with latest releases.
+1. Community: R-universe repository with latest releases.
 2. Production: quarterly snapshots of only healthy releases.
 
-## Built with...
+## Key features
 
-![](./images/built-with/Slide1.png){fig-align="center"}
+<br>
 
-## Built with...
-
-![](./images/built-with/Slide2.png){fig-align="center"}
-
-## Built with...
-
-![](./images/built-with/Slide3.png){fig-align="center"}
-
-## Built with...
-
-![](./images/built-with/Slide4.png){fig-align="center"}
+1. High automation
+1. Democratic:
+    * [x] Package contributors control the release cycle.
+    * [x] Recruiting moderators from across the community.
+1. Transparent and open:
+    * [x] Governance
+    * [x] Policies
+    * [x] Communication
+    * [x] Infrastructure
 
 # Community repository
 
@@ -295,16 +238,6 @@ install.packages(
 
 # Production repository
 
-## Gentle requirements
-
-<br>
-
-1. Free open-source license.
-2. No [security advisories](https://github.com/RConsortium/r-advisory-database).
-3. No `ERROR`s from `WARNING`s from `R CMD check` (or `build`).
-4. Version etiquette.
-5. Healthy dependencies.
-
 ## Quarterly snapshots
 
 ![](./images/calendar.jpg){fig-align="center"}
@@ -312,6 +245,10 @@ install.packages(
 . . .
 
 Production is deployed 4 snapshots each year.
+
+. . .
+
+Healthy releases from Community.
 
 . . .
 
@@ -355,23 +292,7 @@ install.packages(
 
 ## Summary {.Huge}
 
-<br>
 
-. . .
-
-Users and contributors have distinct needs.
-
-. . .
-
-R-multiverse serves both.
-
-## Maintainer-friendly approach
-
-<br>
-
-1. Easy one-time package registration.
-2. Package maintainers control Community releases. 
-3. Gentle requirements for Production.
 
 ## Thanks!
 
@@ -400,7 +321,6 @@ R-multiverse serves both.
 * Stefanie Butland & Steffi LaZerte (2020). rOpenSci Community Contributing Guide v0.1.0. <http://doi.org/10.5281/zenodo.4000531>
 * <https://www.r-project.org/logo/>
 * <https://brand.github.com/foundations/logo>
-* <https://unsplash.com/photos/2-dogs-playing-on-green-grass-during-daytime-IFK5ROpTimo>
 * <https://unsplash.com/photos/red-and-white-brick-wall-zb-ico2Kcg4>
 * <https://unsplash.com/photos/white-printer-paperr-FoKO4DpXamQ>
 :::
