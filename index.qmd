@@ -148,8 +148,8 @@ Where should I <span style="font-weight: bold; font-style: italic; color: blue;"
 </center>
 
 <center>
-* Quality packages
-* Compatible dependencies
+* [x] Quality packages
+* [x] Compatible dependencies
 </center>
 
 :::
@@ -161,9 +161,9 @@ Where should I <span style="font-weight: bold; font-style: italic; color: blue;"
 </center>
 
 <center>
-* Gentle requirements
-* Fast submission
-* Control over the release cycle
+* [x] Gentle requirements
+* [x] Fast submission
+* [x] Control over the release cycle
 </center>
 
 :::
