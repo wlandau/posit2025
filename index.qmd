@@ -96,9 +96,7 @@ install.packages(
 
 <br>
 
-:::{.nonincremental}
-* R-universe lets you make your own repository!
-:::
+R-universe lets you make your own repository!
 
 ## Well-known repositories {.huge}
 
@@ -129,8 +127,13 @@ R-universe | <https://ANYONE.r-universe.dev>
 
 <br>
 
-* Where should I <span style="font-weight: bold; font-style: italic; color: blue;">get</span> packages?
-* Where should I <span style="font-weight: bold; font-style: italic; color: blue;">publish</span> packages?
+. . .
+
+Where should I <span style="font-weight: bold; font-style: italic; color: blue;">get</span> packages?
+
+. . .
+
+Where should I <span style="font-weight: bold; font-style: italic; color: blue;">publish</span> packages?
 
 ##
 
