@@ -4,7 +4,7 @@ format:
      css: style.css
      incremental: true
      slide-number: true
-     footer: "&copy; 2025 Eli Lilly and Company"
+     footer: "&copy; 2025 Eli Lilly and Company <https://wlandau.github.io/posit2025>"
      view-distance: 100
      mobile-view-distance: 100
 ---
