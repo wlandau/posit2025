@@ -378,9 +378,9 @@ R-multiverse serves both.
 
 :::{.nonincremental}
 * R-multiverse co-administrators
-    * Maëlle Salmon
     * Charlie Gao
     * Jeroen Ooms
+    * Maëlle Salmon
 :::
 * R-universe: Jeroen Ooms and rOpenSci.
 * R Consortium:
