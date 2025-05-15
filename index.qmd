@@ -174,7 +174,7 @@ Where should I <span style="font-weight: bold; font-style: italic; color: blue;"
 
 <br>
 
-Repository | Trustworthy | Easy
+Repository | Trustworthy | Easy for developers
 ---|---|---
 CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
 
@@ -182,7 +182,7 @@ CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
 
 <br>
 
-Repository | Trustworthy | Easy
+Repository | Trustworthy | Easy for developers
 ---|---|---
 CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
 Bioconductor | ✅ |  ❌
@@ -191,7 +191,7 @@ Bioconductor | ✅ |  ❌
 
 <br>
 
-Repository | Trustworthy | Easy
+Repository | Trustworthy | Easy for developers
 ---|---|---
 CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
 Bioconductor | ✅ |  ❌
