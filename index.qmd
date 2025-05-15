@@ -4,7 +4,7 @@ format:
      css: style.css
      incremental: true
      slide-number: true
-     footer: "&copy; 2025 Eli Lilly and Company <https://wlandau.github.io/posit2025>"
+     footer: "&copy; 2025 Eli Lilly and Company &nbsp; &nbsp; &nbsp; &nbsp; <https://wlandau.github.io/posit2025>"
      view-distance: 100
      mobile-view-distance: 100
 ---
@@ -46,7 +46,6 @@ knitr::opts_chunk$set(
 <img src="./images/R-multiverse.png" height="400px">
 <br>
 <h4>Will Landau</h4>
-<a href="https://wlandau.github.io/posit2025">https://wlandau.github.io/posit2025</a>
 </center>
 
 # Package repositories
@@ -141,26 +140,26 @@ Where should I <span style="font-weight: bold; font-style: italic; color: blue;"
 
 :::: {.columns}
 
-::: {.column width=47%}
+::: {.column width=50%}
 
-<center>
+<center style = "font-size: 0.95em;">
 <h3>Users want trust.</h3>
 </center>
 
-<center>
+<center style = "font-size: 0.85em;">
 * [x] Quality packages
 * [x] Compatible dependencies
 </center>
 
 :::
 
-::: {.column width=53%}
+::: {.column width=50%}
 
-<center>
+<center style = "font-size: 0.95em;">
 <h3>Contributors want ease.</h3>
 </center>
 
-<center>
+<center style = "font-size: 0.85em;">
 * [x] Gentle requirements
 * [x] Fast submission
 * [x] Control over the release cycle
@@ -174,7 +173,7 @@ Where should I <span style="font-weight: bold; font-style: italic; color: blue;"
 
 <br>
 
-Repository | Trustworthy | Easy for developers
+Repository | Trustworthy | Easy&nbsp;to&nbsp;contribute
 ---|---|---
 CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
 
@@ -182,7 +181,7 @@ CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
 
 <br>
 
-Repository | Trustworthy | Easy for developers
+Repository | Trustworthy | Easy&nbsp;to&nbsp;contribute
 ---|---|---
 CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
 Bioconductor | ✅ |  ❌
@@ -191,7 +190,7 @@ Bioconductor | ✅ |  ❌
 
 <br>
 
-Repository | Trustworthy | Easy for developers
+Repository | Trustworthy | Easy&nbsp;to&nbsp;contribute
 ---|---|---
 CRAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | ✅ |  ❌
 Bioconductor | ✅ |  ❌
@@ -201,7 +200,7 @@ R-universe | ⚠️ | ✅
 
 <br>
 
-Trustworthy | Easy
+Trustworthy | Easy&nbsp;to&nbsp;contribute
 ---|---
 ✅  | ✅ 
 
