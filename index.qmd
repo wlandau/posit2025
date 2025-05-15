@@ -389,6 +389,8 @@ R-multiverse serves both.
 
 ## Link to these slides:
 
+<https://wlandau.github.io/posit2025>
+
 ![](./images/slides.svg){fig-align="center"}
 
 ## Image credit {.tiny}
