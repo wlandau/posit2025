@@ -272,8 +272,13 @@ The "QA" (quality assurance) of R packages.
 
 ![](./images/release.png){fig-align="center"}
 
-* Releases come directly from GitHub/GitLab.
-* Package maintainers have complete control!
+. . .
+
+Releases come directly from GitHub/GitLab.
+
+. . . 
+
+Package maintainers have complete control!
 
 ## Installing from Community repository {.huge}
 
