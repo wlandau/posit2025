@@ -236,8 +236,13 @@ Trustworthy | Easy
 
 ![](./images/community-universe.png){fig-align="center"}
 
-* An R-universe repository: [community.r-multiverse.org](https://community.r-multiverse.org)
-* Latest GitHub/GitLab releases of all registered packages.
+. . .
+
+An R-universe repository: [community.r-multiverse.org](https://community.r-multiverse.org)
+
+. . .
+
+Latest GitHub/GitLab releases of all registered packages.
 
 ## Community repository
 
