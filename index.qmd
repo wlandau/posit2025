@@ -358,8 +358,13 @@ install.packages(
 
 <br>
 
-* Users and contributors have distinct needs.
-* R-multiverse serves both.
+. . .
+
+Users and contributors have distinct needs.
+
+. . .
+
+R-multiverse serves both.
 
 ## Maintainer-friendly approach
 
