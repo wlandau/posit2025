@@ -307,9 +307,9 @@ Now recruiting new packages and new moderators.
 ::: {.nonincremental}
 
 * R-multiverse co-administrators
-    * Charlie Gao
     * Jeroen Ooms
     * Maëlle Salmon
+    * Charlie Gao
 * rOpenSci: <https://ropensci.org/about/>
 * R-universe: Jeroen Ooms and rOpenSci.
 * R Consortium:
