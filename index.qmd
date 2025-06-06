@@ -7,6 +7,8 @@ format:
      footer: "&copy; 2025 Eli Lilly and Company &nbsp; &nbsp; &nbsp; &nbsp; <https://wlandau.github.io/posit2025>"
      view-distance: 100
      mobile-view-distance: 100
+extensions:
+  - jmbuhr/quarto-qrcode
 ---
 
 ##
@@ -71,7 +73,7 @@ Helps packages become visible and accessible.
 
 ![](./images/ropensci-packages.png){fig-align="center"}
 
-## My start in open-source
+## My start in open-source software
 
 ![](./images/drake.png){fig-align="center"}
 
@@ -318,11 +320,11 @@ Now recruiting new packages and new moderators.
 
 :::
 
-## Link to these slides:
+## Slides: [wlandau.github.io/posit2025](https://wlandau.github.io/posit2025)
 
-<https://wlandau.github.io/posit2025>
-
-![](./images/slides.svg){fig-align="center"}
+<center>
+{{< qrcode https://wlandau.github.io/posit2025 width=500 height=500 >}}
+</center>
 
 ## Image credit {.tiny}
 
