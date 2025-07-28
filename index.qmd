@@ -169,7 +169,7 @@ GitLab
 :::
 
 :::{.fragment}
-❌ : obscurity, lack of oversight
+❌ Cons: obscurity, lack of oversight
 :::
 
 ## GitHub development silos
