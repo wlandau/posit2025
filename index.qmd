@@ -94,6 +94,8 @@ CRAN
 
 Bioconductor
 
+rOpenSci
+
 :::
 
 :::
