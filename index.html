@@ -212,7 +212,7 @@
 </style>
 <center>
 <h3>
-A new democratic dual repository<br>for R packages
+Hybrid publishing for R packages
 </h3>
 <img src="./images/R-multiverse.png" height="400px"> <br>
 <h4>
@@ -221,107 +221,110 @@ Will Landau
 </center>
 </section>
 <section>
-<section id="background" class="title-slide slide level1 center">
-<h1>Background</h1>
+<section id="publishing" class="title-slide slide level1 center">
+<h1>Publishing</h1>
 
 </section>
-<section id="section-1" class="slide level2">
-<h2></h2>
-
-<img data-src="./images/ropensci.svg" class="quarto-figure quarto-figure-center r-stretch"><div class="fragment">
-<p>Social and technical infrastructure for R.</p>
+<section id="central-publishers" class="slide level2">
+<h2>Central publishers</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:33%;">
+<div class="fragment">
+<p>Penguin</p>
+<p>Oxford UP</p>
+<p>Pearson</p>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p>Nature</p>
+<p>JASA</p>
+<p>JSS</p>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p>CRAN</p>
+<p>Bioconductor</p>
+</div>
+</div></div>
+<p><br></p>
+<div class="fragment">
+<p>✅ Pros: visibility for readers</p>
 </div>
 <div class="fragment">
-<p>Helps users find R packages.</p>
-</div>
-<div class="fragment">
-<p>Helps packages become visible and accessible.</p>
+<p>❌ Cons: editorial review</p>
 </div>
 </section>
-<section id="peer-reviewed-packages" class="slide level2">
-<h2>Peer-reviewed packages</h2>
-
-<img data-src="./images/ropensci-packages.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="my-start-in-open-source-software" class="slide level2">
-<h2>My start in open-source software</h2>
-
-<img data-src="./images/drake.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="section-2" class="slide level2">
-<h2></h2>
-
-<img data-src="./images/runiverse.png" class="quarto-figure quarto-figure-center r-stretch"><div class="fragment">
-<p>R-universe: R package publication platform by rOpenSci.</p>
+<section id="self-publishing" class="slide level2">
+<h2>Self-publishing</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:33%;">
+<div class="fragment">
+<p>Kindle Direct</p>
+<p>Apple Books</p>
+<p>GitHub Pages</p>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p>arXiv</p>
+<p>OSF Preprints</p>
+<p>GitHub Pages</p>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p>R-universe</p>
+<p>GitHub</p>
+<p>GitLab</p>
+</div>
+</div></div>
+<p><br></p>
+<div class="fragment">
+<p>✅ Pros: authors control publishing.</p>
 </div>
 <div class="fragment">
-<p>Improves accessibility and discovery of research software in R.</p>
-</div>
-<div class="fragment">
-<p>Lets you create your own R package repository.</p>
+<p>❌ : obscurity, lack of oversight</p>
 </div>
 </section>
-<section id="step-1-list-the-packages" class="slide level2">
-<h2>Step 1: list the packages</h2>
-<div style="font-size:0.9em">
-<p><code>packages.json</code> file at <a href="https://github.com/wlandau/wlandau.r-universe.dev">github.com/wlandau/wlandau.r-universe.dev</a>:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource json number-lines code-with-copy"><code class="sourceCode json"><span id="cb1-1"><a href=""></a><span class="ot">[</span></span>
-<span id="cb1-2"><a href=""></a>  <span class="fu">{</span></span>
-<span id="cb1-3"><a href=""></a>    <span class="dt">"package"</span><span class="fu">:</span> <span class="st">"targets"</span><span class="fu">,</span></span>
-<span id="cb1-4"><a href=""></a>    <span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://github.com/ropensci/targets"</span><span class="fu">,</span></span>
-<span id="cb1-5"><a href=""></a>    <span class="dt">"branch"</span><span class="fu">:</span> <span class="st">"*release"</span></span>
-<span id="cb1-6"><a href=""></a>  <span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb1-7"><a href=""></a>  <span class="fu">{</span></span>
-<span id="cb1-8"><a href=""></a>    <span class="dt">"package"</span><span class="fu">:</span> <span class="st">"crew"</span><span class="fu">,</span></span>
-<span id="cb1-9"><a href=""></a>    <span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://github.com/wlandau/crew"</span></span>
-<span id="cb1-10"><a href=""></a>  <span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb1-11"><a href=""></a>  <span class="er">...</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="step-2-install-the-github-app" class="slide level2">
-<h2>Step 2: install the GitHub app</h2>
-<p><a href="https://github.com/apps/r-universe/installations/select_target" class="uri">https://github.com/apps/r-universe/installations/select_target</a></p>
-
-<img data-src="./images/install-r-universe.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="discoverable-packages" class="slide level2">
-<h2>Discoverable packages</h2>
-
-<img data-src="./images/wlandau-universe.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="package-installation" class="slide level2">
-<h2>Package installation</h2>
+<section id="github-development-silos" class="slide level2">
+<h2>GitHub development silos</h2>
 <p><br></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" data-code-line-numbers="2,4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a><span class="fu">install.packages</span>(</span>
-<span id="cb2-2"><a href=""></a>  <span class="st">"targets"</span>,</span>
-<span id="cb2-3"><a href=""></a>  <span class="at">repos =</span> <span class="fu">c</span>(</span>
-<span id="cb2-4"><a href=""></a>    <span class="st">"https://wlandau.r-universe.dev"</span>,</span>
-<span id="cb2-5"><a href=""></a>    <span class="fu">getOption</span>(<span class="st">"repos"</span>)</span>
-<span id="cb2-6"><a href=""></a>  )</span>
-<span id="cb2-7"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a>pak<span class="sc">::</span><span class="fu">pkg_install</span>(<span class="st">"wlandau/crew"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a>pak<span class="sc">::</span><span class="fu">pkg_install</span>(<span class="st">"stan-dev/cmdstanr"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="continuing-the-same-mission" class="slide level2">
-<h2>Continuing the same mission…</h2>
+<section id="r-universe-development-silos" class="slide level2">
+<h2>R-universe development silos</h2>
 <p><br></p>
-<ul class="task-list">
-<li class="fragment"><label><input type="checkbox" checked="">Democratic community-driven publication process.</label></li>
-<li class="fragment"><label><input type="checkbox" checked="">Transparent governance.</label></li>
-<li class="fragment"><label><input type="checkbox" checked="">Open infrastructure.</label></li>
-<li class="fragment"><label><input type="checkbox">Broaden the visibility of packages.</label></li>
-<li class="fragment"><label><input type="checkbox">Focus on package releases.</label></li>
-<li class="fragment"><label><input type="checkbox">Prepare for production scenarios.</label></li>
-</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="fu">install.packages</span>(</span>
+<span id="cb3-2"><a href=""></a>  <span class="st">"crew"</span>,</span>
+<span id="cb3-3"><a href=""></a>  <span class="at">repos =</span> <span class="st">"https://wlandau.r-universe.dev"</span></span>
+<span id="cb3-4"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><br></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a><span class="fu">install.packages</span>(</span>
+<span id="cb4-2"><a href=""></a>  <span class="st">"cmdstanr"</span>,</span>
+<span id="cb4-3"><a href=""></a>  <span class="at">repos =</span> <span class="st">"https://stan-dev.r-universe.dev"</span></span>
+<span id="cb4-4"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="with-r-multiverse" class="slide level2">
-<h2>…with R-multiverse</h2>
-<p><br></p>
-<ul class="task-list">
-<li><label><input type="checkbox" checked="">Democratic community-driven publication process.</label></li>
-<li><label><input type="checkbox" checked="">Transparent governance.</label></li>
-<li><label><input type="checkbox" checked="">Open infrastructure.</label></li>
-<li><label><input type="checkbox" checked="">Broaden the visibility of packages.</label></li>
-<li><label><input type="checkbox" checked="">Focus on package releases.</label></li>
-<li><label><input type="checkbox" checked="">Prepare for production scenarios.</label></li>
-</ul>
+<section id="hybrid-publishing" class="slide level2">
+<h2>Hybrid publishing</h2>
+<center>
+<img src="./images/R-multiverse.png" height="350px">
+</center>
+<div class="fragment">
+<p>✅ A centralized location for self-published releases</p>
+</div>
+<div class="fragment">
+<p>✅ Fully automated quality control for production</p>
+</div>
 </section></section>
 <section>
 <section id="r-multiverse" class="title-slide slide level1 center">
@@ -330,10 +333,12 @@ Will Landau
 </section>
 <section id="a-dual-repository" class="slide level2">
 <h2>A dual repository</h2>
-
-<img data-src="./images/R-multiverse.png" class="quarto-figure quarto-figure-center r-stretch"><ol type="1">
-<li class="fragment">Community: R-universe repository with latest releases.</li>
-<li class="fragment">Production: quarterly snapshots of only healthy releases.</li>
+<center>
+<img src="./images/R-multiverse.png" height="350px">
+</center>
+<ol type="1">
+<li class="fragment">Community: an R-universe repository with latest releases.</li>
+<li class="fragment">Production: quarterly snapshots of healthy releases.</li>
 </ol>
 </section></section>
 <section>
@@ -375,17 +380,32 @@ Will Landau
 <h2>New releases direct from maintainers</h2>
 
 <img data-src="./images/release.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="community-manifest" class="slide level2">
+<h2>Community manifest</h2>
+<div style="font-size:0.9em">
+<p><a href="https://github.com/r-multiverse/community/blob/main/packages.json"><code>packages.json</code></a>:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource json number-lines code-with-copy"><code class="sourceCode json"><span id="cb5-1"><a href=""></a><span class="ot">[</span></span>
+<span id="cb5-2"><a href=""></a>  <span class="er">...</span><span class="ot">,</span></span>
+<span id="cb5-3"><a href=""></a>  <span class="fu">{</span></span>
+<span id="cb5-4"><a href=""></a>    <span class="dt">"package"</span><span class="fu">:</span> <span class="st">"webchem"</span><span class="fu">,</span></span>
+<span id="cb5-5"><a href=""></a>    <span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://github.com/ropensci/webchem"</span><span class="fu">,</span></span>
+<span id="cb5-6"><a href=""></a>    <span class="dt">"branch"</span><span class="fu">:</span> <span class="st">"*release"</span></span>
+<span id="cb5-7"><a href=""></a>  <span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb5-8"><a href=""></a>  <span class="er">...</span></span>
+<span id="cb5-9"><a href=""></a><span class="ot">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
 <section id="installing-from-community" class="slide level2 huge">
 <h2>Installing from Community</h2>
 <p><br></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3" data-code-line-numbers="2,4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="fu">install.packages</span>(</span>
-<span id="cb3-2"><a href=""></a>  <span class="st">"webchem"</span>,</span>
-<span id="cb3-3"><a href=""></a>  <span class="at">repos =</span> <span class="fu">c</span>(</span>
-<span id="cb3-4"><a href=""></a>    <span class="st">"https://community.r-multiverse.org"</span>,</span>
-<span id="cb3-5"><a href=""></a>    <span class="fu">getOption</span>(<span class="st">"repos"</span>)</span>
-<span id="cb3-6"><a href=""></a>  )</span>
-<span id="cb3-7"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6" data-code-line-numbers="2,4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href=""></a><span class="fu">install.packages</span>(</span>
+<span id="cb6-2"><a href=""></a>  <span class="st">"webchem"</span>,</span>
+<span id="cb6-3"><a href=""></a>  <span class="at">repos =</span> <span class="fu">c</span>(</span>
+<span id="cb6-4"><a href=""></a>    <span class="st">"https://community.r-multiverse.org"</span>,</span>
+<span id="cb6-5"><a href=""></a>    <span class="fu">getOption</span>(<span class="st">"repos"</span>)</span>
+<span id="cb6-6"><a href=""></a>  )</span>
+<span id="cb6-7"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section></section>
 <section>
@@ -395,8 +415,10 @@ Will Landau
 </section>
 <section id="quarterly-snapshots" class="slide level2">
 <h2>Quarterly snapshots</h2>
-
-<img data-src="./images/calendar.jpg" class="quarto-figure quarto-figure-center r-stretch"><div class="fragment">
+<center>
+<img src="./images/clock.png" height="300px">
+</center>
+<div class="fragment">
 <p>Production is deployed 4 snapshots each year.</p>
 </div>
 <div class="fragment">
@@ -404,6 +426,25 @@ Will Landau
 </div>
 <div class="fragment">
 <p>Soft landing from Community to Production.</p>
+</div>
+</section>
+<section id="automated-checks" class="slide level2">
+<h2>Automated checks</h2>
+<p><br></p>
+<div class="fragment">
+<p>✅ Free open-source license</p>
+</div>
+<div class="fragment">
+<p>✅ No security advisories</p>
+</div>
+<div class="fragment">
+<p>✅ <code>R CMD check</code> passes</p>
+</div>
+<div class="fragment">
+<p>✅ Version number increases</p>
+</div>
+<div class="fragment">
+<p>✅ Healthy dependencies</p>
 </div>
 </section>
 <section id="staging-universe-manages-transition" class="slide level2">
@@ -430,13 +471,13 @@ Will Landau
 <h2>Installing from Production</h2>
 <p><br></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4" data-code-line-numbers="2,4,5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a><span class="fu">install.packages</span>(</span>
-<span id="cb4-2"><a href=""></a>  <span class="st">"polars"</span>,</span>
-<span id="cb4-3"><a href=""></a>  <span class="at">repos =</span> <span class="fu">c</span>(</span>
-<span id="cb4-4"><a href=""></a>    <span class="st">"https://production.r-multiverse.org/2025-03-15"</span>,</span>
-<span id="cb4-5"><a href=""></a>    <span class="st">"https://packagemanager.posit.co/cran/2025-01-15"</span></span>
-<span id="cb4-6"><a href=""></a>  )</span>
-<span id="cb4-7"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7" data-code-line-numbers="2,4,5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href=""></a><span class="fu">install.packages</span>(</span>
+<span id="cb7-2"><a href=""></a>  <span class="st">"polars"</span>,</span>
+<span id="cb7-3"><a href=""></a>  <span class="at">repos =</span> <span class="fu">c</span>(</span>
+<span id="cb7-4"><a href=""></a>    <span class="st">"https://production.r-multiverse.org/2025-03-15"</span>,</span>
+<span id="cb7-5"><a href=""></a>    <span class="st">"https://packagemanager.posit.co/cran/2025-01-15"</span></span>
+<span id="cb7-6"><a href=""></a>  )</span>
+<span id="cb7-7"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section></section>
 <section>
@@ -447,14 +488,14 @@ Will Landau
 <section id="summary" class="slide level2 Huge">
 <h2>Summary</h2>
 <p><br></p>
-<p>rOpenSci/R-universe help publish and discover R packages.</p>
+<p>Maintainers control publishing.</p>
 <div class="fragment">
 <p><br></p>
-<p>R-multiverse improves reach and rigor with a democratic dual repository.</p>
+<p>Users can access quality packages from one place.</p>
 </div>
 <div class="fragment">
 <p><br></p>
-<p>Now recruiting new packages and new moderators.</p>
+<p>We are recruiting new packages and new moderators.</p>
 </div>
 </section>
 <section id="thanks" class="slide level2 medium">
@@ -497,6 +538,7 @@ Will Landau
 <li><a href="https://github.com/ropensci-org/contributing-guidance/blob/main/images/runiverse.png" class="uri">https://github.com/ropensci-org/contributing-guidance/blob/main/images/runiverse.png</a></li>
 <li>Stefanie Butland &amp; Steffi LaZerte (2020). rOpenSci Community Contributing Guide v0.1.0. <a href="http://doi.org/10.5281/zenodo.4000531" class="uri">http://doi.org/10.5281/zenodo.4000531</a></li>
 <li><a href="https://unsplash.com/photos/white-printer-paperr-FoKO4DpXamQ" class="uri">https://unsplash.com/photos/white-printer-paperr-FoKO4DpXamQ</a></li>
+<li><a href="https://unsplash.com/photos/round-analog-wall-clock-pointing-at-1009-L0xOtAnv94Y" class="uri">https://unsplash.com/photos/round-analog-wall-clock-pointing-at-1009-L0xOtAnv94Y</a></li>
 </ul>
 
 </section></section>

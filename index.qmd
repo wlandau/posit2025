@@ -44,137 +44,190 @@ knitr::opts_chunk$set(
 </style>
 
 <center>
-<h3>A new democratic dual repository<br>for R packages</h3>
+<h3>Hybrid publishing for R packages</h3>
 <img src="./images/R-multiverse.png" height="400px">
 <br>
 <h4>Will Landau</h4>
 </center>
 
-# Background
+# Publishing
 
-## 
-
-![](./images/ropensci.svg){fig-align="center"}
-
-. . .
-
-Social and technical infrastructure for R.
-
-. . . 
-
-Helps users find R packages.
-
-. . . 
-
-Helps packages become visible and accessible.
-
-
-## Peer-reviewed packages
-
-![](./images/ropensci-packages.png){fig-align="center"}
-
-## My start in open-source software
-
-![](./images/drake.png){fig-align="center"}
-
-##
-
-![](./images/runiverse.png){fig-align="center"}
-
-. . .
-
-R-universe: R package publication platform by rOpenSci.
-
-. . .
-
-Improves accessibility and discovery of research software in R.
-
-. . .
-
-Lets you create your own R package repository.
-
-## Step 1: list the packages
-
-<div style="font-size:0.9em">
-
-`packages.json` file at [github.com/wlandau/wlandau.r-universe.dev](https://github.com/wlandau/wlandau.r-universe.dev):
-
-```json
-[
-  {
-    "package": "targets",
-    "url": "https://github.com/ropensci/targets",
-    "branch": "*release"
-  },
-  {
-    "package": "crew",
-    "url": "https://github.com/wlandau/crew"
-  },
-  ...
-```
-
-</div>
-
-## Step 2: install the GitHub app
-
-<https://github.com/apps/r-universe/installations/select_target>
-
-![](./images/install-r-universe.png){fig-align="center"}
-
-## Discoverable packages
-
-![](./images/wlandau-universe.png){fig-align="center"}
-
-## Package installation
+## Central publishers
 
 <br>
 
-```{r, `code-line-numbers` = "2,4"}
+::::{.columns}
+
+:::{.column width="33%"}
+
+:::{.fragment}
+
+Penguin
+
+Oxford UP
+
+Pearson
+
+:::
+
+:::
+
+:::{.column width="33%"}
+
+:::{.fragment}
+
+Nature
+
+JASA
+
+JSS
+
+:::
+
+:::
+
+:::{.column width="33%"}
+
+:::{.fragment}
+
+CRAN
+
+Bioconductor
+
+:::
+
+:::
+
+::::
+
+<br>
+
+:::{.fragment}
+✅  Pros: visibility for readers
+:::
+
+:::{.fragment}
+❌ Cons: editorial review
+:::
+
+## Self-publishing
+
+<br>
+
+::::{.columns}
+
+:::{.column width="33%"}
+
+:::{.fragment}
+
+Kindle Direct
+
+Apple Books
+
+GitHub Pages
+
+:::
+
+:::
+
+:::{.column width="33%"}
+
+:::{.fragment}
+
+arXiv
+
+OSF Preprints
+
+GitHub Pages
+
+:::
+
+:::
+
+:::{.column width="33%"}
+
+:::{.fragment}
+
+R-universe
+
+GitHub
+
+GitLab
+
+:::
+
+:::
+
+::::
+
+<br>
+
+:::{.fragment}
+✅ Pros: authors control publishing.
+:::
+
+:::{.fragment}
+❌ : obscurity, lack of oversight
+:::
+
+## GitHub development silos
+
+<br>
+
+```{r}
+pak::pkg_install("wlandau/crew")
+```
+
+<br>
+
+```{r}
+pak::pkg_install("stan-dev/cmdstanr")
+```
+
+## R-universe development silos
+
+<br>
+
+```{r}
 install.packages(
-  "targets",
-  repos = c(
-    "https://wlandau.r-universe.dev",
-    getOption("repos")
-  )
+  "crew",
+  repos = "https://wlandau.r-universe.dev"
 )
 ```
 
 <br>
 
-## Continuing the same mission...
+```{r}
+install.packages(
+  "cmdstanr",
+  repos = "https://stan-dev.r-universe.dev"
+)
+```
 
-<br>
+## Hybrid publishing 
 
-* [x] Democratic community-driven publication process.
-* [x] Transparent governance.
-* [x] Open infrastructure.
-* [ ] Broaden the visibility of packages.
-* [ ] Focus on package releases.
-* [ ] Prepare for production scenarios.
+<center>
+<img src="./images/R-multiverse.png" height="350px">
+</center>
 
-## ...with R-multiverse
+:::{.fragment}
+✅ A centralized location for self-published releases
+:::
 
-<br>
-
-:::{.nonincremental}
-
-* [x] Democratic community-driven publication process.
-* [x] Transparent governance.
-* [x] Open infrastructure.
-* [x] Broaden the visibility of packages.
-* [x] Focus on package releases.
-* [x] Prepare for production scenarios.
-
+:::{.fragment}
+✅ Fully automated quality control for production 
 :::
 
 # R-multiverse
 
 ## A dual repository
 
-![](./images/R-multiverse.png){fig-align="center"}
+<center>
+<img src="./images/R-multiverse.png" height="350px">
+</center>
 
-1. Community: R-universe repository with latest releases.
-2. Production: quarterly snapshots of only healthy releases.
+1. Community: an R-universe repository with latest releases.
+2. Production: quarterly snapshots of healthy releases.
 
 # Community repository
 
@@ -218,6 +271,27 @@ The "QA" (quality assurance) of R packages.
 
 ![](./images/release.png){fig-align="center"}
 
+## Community manifest
+
+:::{style="font-size:0.9em"}
+
+[`packages.json`](https://github.com/r-multiverse/community/blob/main/packages.json):
+
+```json
+[
+  ...,
+  {
+    "package": "webchem",
+    "url": "https://github.com/ropensci/webchem",
+    "branch": "*release"
+  },
+  ...
+]
+
+```
+
+:::
+
 ## Installing from Community {.huge}
 
 <br>
@@ -236,7 +310,9 @@ install.packages(
 
 ## Quarterly snapshots
 
-![](./images/calendar.jpg){fig-align="center"}
+<center>
+<img src="./images/clock.png" height="300px">
+</center>
 
 . . .
 
@@ -249,6 +325,30 @@ Healthy releases from Community.
 . . .
 
 Soft landing from Community to Production.
+
+## Automated checks
+
+<br>
+
+:::{.fragment}
+✅ Free open-source license
+:::
+
+:::{.fragment}
+✅ No security advisories
+:::
+
+:::{.fragment}
+✅ `R CMD check` passes
+:::
+
+:::{.fragment}
+✅ Version number increases
+:::
+
+:::{.fragment}
+✅ Healthy dependencies
+:::
 
 ## Staging universe manages transition
 
@@ -290,19 +390,19 @@ install.packages(
 
 <br>
 
-rOpenSci/R-universe help publish and discover R packages.
-
-. . . 
-
-<br>
-
-R-multiverse improves reach and rigor with a democratic dual repository.
+Maintainers control publishing.
 
 . . .
 
 <br>
 
-Now recruiting new packages and new moderators.
+Users can access quality packages from one place.
+
+. . .
+
+<br>
+
+We are recruiting new packages and new moderators.
 
 ## Thanks! {.medium}
 
@@ -334,4 +434,5 @@ Now recruiting new packages and new moderators.
 * <https://github.com/ropensci-org/contributing-guidance/blob/main/images/runiverse.png>
 * Stefanie Butland & Steffi LaZerte (2020). rOpenSci Community Contributing Guide v0.1.0. <http://doi.org/10.5281/zenodo.4000531>
 * <https://unsplash.com/photos/white-printer-paperr-FoKO4DpXamQ>
+* <https://unsplash.com/photos/round-analog-wall-clock-pointing-at-1009-L0xOtAnv94Y>
 :::
