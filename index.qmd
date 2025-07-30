@@ -257,17 +257,38 @@ Middle ground between development and production.
 
 The "QA" (quality assurance) of R packages.
 
+## Minimalist submission requirements
+
+<br>
+
+Boils down to:
+
+<br>
+
+1. R package with a GitHub/GitLab release.
+2. No malicious activity.
+3. Free open-source license.
+
+<br>
+
+. . .
+
+[R-multiverse policies](https://r-multiverse.org/policies.html) are modeled after [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+
+
 ## One-time registration on GitHub {.huge}
 
 ![](./images/register1.png){fig-align="center"}
-
-<br>
 
 ## Automated review
 
 <br>
 
 ![](./images/register2.png){fig-align="center"}
+
+<br>
+
+Manual review, if required, is minimalist.
 
 ## New releases direct from maintainers
 
