@@ -273,7 +273,7 @@ Boils down to:
 
 . . .
 
-[R-multiverse policies](https://r-multiverse.org/policies.html) are modeled after [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+[Policies](https://r-multiverse.org/policies.html) are modeled after [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
 
 
 ## One-time registration on GitHub {.huge}
