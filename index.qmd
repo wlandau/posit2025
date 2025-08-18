@@ -425,9 +425,29 @@ Users can access quality packages from one place.
 
 <br>
 
-We are recruiting new packages and new moderators.
+We are inviting new packages submissions.
+
+. . .
+
+<br>
+
+We are recruiting new packages moderators.
 
 ## Thanks! {.medium}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<center>
+{{< qrcode https://wlandau.github.io/posit2025 width=500 height=500 >}}
+</center>
+
+[wlandau.github.io/posit2025](https://wlandau.github.io/posit2025)
+
+:::
+
+::: {.column width="50%"}
 
 ::: {.nonincremental}
 
@@ -443,11 +463,9 @@ We are recruiting new packages and new moderators.
 
 :::
 
-## Slides: [wlandau.github.io/posit2025](https://wlandau.github.io/posit2025)
+:::
 
-<center>
-{{< qrcode https://wlandau.github.io/posit2025 width=500 height=500 >}}
-</center>
+::::
 
 ## Image credit {.tiny}
 
