@@ -62,11 +62,13 @@ knitr::opts_chunk$set(
 
 :::{.fragment}
 
+Chapman & Hall
+
+CRC Press
+
 Penguin
 
 Oxford UP
-
-Pearson
 
 :::
 
@@ -77,6 +79,8 @@ Pearson
 :::{.fragment}
 
 Nature
+
+PLOS
 
 JASA
 
