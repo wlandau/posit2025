@@ -1,8 +1,13 @@
-# R-multiverse: a next-generation dual repository built on R-universe
+# R-multiverse: a new way to publish R packages
 
-R-multiverse is a new dual repository and a home for R packages outside the scope of CRAN/Bioconductor.
-Each package is registered once, and then maintainers directly control releases through GitHub/GitLab.
-R-multiverse hosts a Community repository with the latest release of each package, and a Production repository with quarterly snapshots of the releases from Community that pass automated checks.
-Built on R-universe and GitHub, R-multiverse is mostly automated.
-R-multiverse originated from the R Consortium Repositories Working Group, it has transparent governance, and it operates in a collaborative and open way.
-It is not mature or established yet, but it is under active development, and it is ready for package contributions.
+R-multiverse is a new dual repository for R packages, based on infrastructure from R-universe and GitHub.
+We would like to invite the developer community to contribute packages.
+
+With R-multiverse, users have a central place for installing packages.
+Automated quarterly production snapshots enforce quality.
+
+Package maintainers retain most of the freedom and flexibility of self-publishing.
+Maintainers directly control package releases through GitHub or GitLab.
+
+R-multiverse originated from the R Consortium Repositories Working Group.
+It has transparent governance, and it operates in a collaborative and open way.
