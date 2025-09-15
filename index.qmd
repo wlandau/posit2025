@@ -387,7 +387,7 @@ Gradually build each snapshot from the ground up.
 
 ![](./images/snapshot/Slide1.png){fig-align="center"}
 
-## Start with a fluid ecosystem
+## Start with a fluid ecosystem.
 
 ![](./images/snapshot/Slide2.png){fig-align="center"}
 
