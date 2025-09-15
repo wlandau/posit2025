@@ -357,7 +357,7 @@ Healthy releases from Community.
 
 . . .
 
-Soft landing from Community to Production.
+Gradually build each snapshot from the ground up.
 
 ## Automated checks
 
@@ -383,11 +383,11 @@ Soft landing from Community to Production.
 ✅ Healthy dependencies
 :::
 
-## Staging universe manages transition
+## Goal: a solid, stable snapshot
 
 ![](./images/snapshot/Slide1.png){fig-align="center"}
 
-## Goal: Production snapshot
+## Start with a fluid ecosystem
 
 ![](./images/snapshot/Slide2.png){fig-align="center"}
 
