@@ -284,6 +284,12 @@ Boils down to:
 
 ![](./images/register1.png){fig-align="center"}
 
+<br>
+
+:::{.nonincremental}
+<https://github.com/r-multiverse/contributions/pulls>
+:::
+
 ## Automated review
 
 <br>
