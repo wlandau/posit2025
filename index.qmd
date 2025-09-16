@@ -423,13 +423,13 @@ install.packages(
 
 <br>
 
-Maintainers control publishing.
+Users can access quality packages from one place.
 
 . . .
 
 <br>
 
-Users can access quality packages from one place.
+Maintainers control publishing.
 
 . . .
 
