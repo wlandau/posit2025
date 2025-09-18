@@ -300,10 +300,6 @@ Boils down to:
 
 Manual review, if required, is minimalist.
 
-## New releases direct from maintainers
-
-![](./images/release.png){fig-align="center"}
-
 ## Community manifest
 
 :::{style="font-size:0.9em"}
@@ -324,6 +320,11 @@ Manual review, if required, is minimalist.
 ```
 
 :::
+
+## New releases direct from maintainers
+
+![](./images/release.png){fig-align="center"}
+
 
 ## Installing from Community {.huge}
 
@@ -359,17 +360,13 @@ Healthy releases from Community.
 
 Gradually build each snapshot from the ground up.
 
-## Automated checks
+## Production requirements
 
 <br>
 
-:::{.fragment}
-✅ Free open-source license
-:::
+Community requirements, plus:
 
-:::{.fragment}
-✅ No security advisories
-:::
+<br>
 
 :::{.fragment}
 ✅ `R CMD check` passes
