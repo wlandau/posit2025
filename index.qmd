@@ -373,7 +373,11 @@ Community requirements, plus:
 :::
 
 :::{.fragment}
-✅ Version number increases
+✅ Version number etiquette
+:::
+
+:::{.fragment}
+✅ No `Remotes` field in the `DESCRIPTION` file
 :::
 
 :::{.fragment}
